@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import ProfilePic from "../assests/Abdullah.jpg";
 import PointerImage from "../assests/pointerImage.jpg"
 import SocialMedia from "./SocialMedia"
+import TerminalBio from "./TerminalBio";
 
 import {
   FaBolt,
@@ -195,6 +196,12 @@ export default function AboutMe() {
             </motion.div>
           </div>
 
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden pb-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <TerminalBio />
         </div>
       </section>
 
