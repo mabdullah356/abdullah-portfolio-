@@ -942,7 +942,64 @@
         "Responsive Grid Layout with High-Fidelity Iconography",
         "Premium Minimalist UI with Slate, Blue & Green Accents"
     ]
+},
+{
+    "id": "18",
+    "title": "SonicStream",
+    "category": "Entertainment / Streaming",
+    "type": "Web Application",
+    "icon": "Music",
+    "thumbnail": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
+    "images": [
+        "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1200&auto=format&fit=crop&q=60"
+    ],
+    "description": "A high-performance music streaming platform inspired by Spotify. SonicStream leverages the Spotify Web API to deliver real-time track searches, seamless playback, and personalized playlist management within a stunning, glassmorphic interface designed for both desktop and mobile users.",
+    "role": "Full Stack Developer",
+    "tech": {
+        "frontend": [
+            "React 19",
+            "Vite",
+            "Tailwind CSS v4",
+            "Framer Motion"
+        ],
+        "backend": [
+            "Spotify Web API",
+            "React Context API",
+            "OAuth 2.0"
+        ],
+        "services": [
+            "React Icons",
+            "Lucide React",
+            "Axios / Fetch API"
+        ]
+    },
+    "techStack": [
+        "React"
+    ],
+    "tags": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Spotify API",
+        "Entertainment",
+        "Streaming",
+        "Responsive Design"
+    ],
+    "links": {
+        "github": "https://github.com/muhammad-abdullah11/spotify",
+        "live": "https://the-spotify-music-lite.vercel.app/"
+    },
+    "ui_features": [
+        "Real-time Music Playback with Interactive Seek Bar",
+        "Dynamic Search Engine for Artists, Albums, and Tracks",
+        "Glassmorphic Dashboard with Fluid Motion Transitions",
+        "Personalized Library and Playlist Management System",
+        "Responsive Grid Layout for Seamless Cross-Device Experience",
+        "Premium UI with Deep Obsidian, Emerald, and Slate Accents"
+    ]
 }
+
 
 
 
