@@ -887,7 +887,63 @@
         "Mobile-First Responsive Layout with Optimized Layout Shift",
         "Premium Minimalist Aesthetic with Zinc & Slate Accents"
     ]
+},
+{
+    "id": "17",
+    "title": "Guardly",
+    "category": "Security / Productivity",
+    "type": "Web Application",
+    "icon": "Shield",
+    "thumbnail": "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
+    "images": [
+        "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
+        "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3N3b3JkJTIwbWFuYWdlcnxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "description": "A high-performance, military-grade password management solution designed for ultimate security and ease of use. Guardly features a zero-knowledge architecture, smart autofill capabilities, and a sleek modern interface to securely manage both digital credentials and financial wallets across all devices.",
+    "role": "Frontend Engineer",
+    "tech": {
+        "frontend": [
+            "React 19",
+            "Vite",
+            "Tailwind CSS v4",
+            "Framer Motion"
+        ],
+        "backend": [
+            "React Context API",
+            "Browser LocalStorage"
+        ],
+        "services": [
+            "React Icons",
+            "Custom Security Hooks",
+            "Encryption Workflow Logic"
+        ]
+    },
+    "techStack": [
+        "React"
+    ],
+    "tags": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Security",
+        "Password Manager",
+        "Productivity",
+        "Responsive Design"
+    ],
+    "links": {
+        "github": "https://github.com/muhammad-abdullah11/password-manager",
+        "live": "https://the-password-vault.vercel.app/"
+    },
+    "ui_features": [
+        "Interactive Dashboard with Motion-enhanced Transitions",
+        "Secure Credentials Vault with Real-time CRUD Operations",
+        "Stored Wallets Module for Credit Card Management",
+        "Zero-Knowledge Architecture UI Visualization",
+        "Responsive Grid Layout with High-Fidelity Iconography",
+        "Premium Minimalist UI with Slate, Blue & Green Accents"
+    ]
 }
+
 
 
 ]
