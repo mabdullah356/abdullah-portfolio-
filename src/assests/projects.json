@@ -998,7 +998,65 @@
         "Responsive Grid Layout for Seamless Cross-Device Experience",
         "Premium UI with Deep Obsidian, Emerald, and Slate Accents"
     ]
+},
+{
+    "id": "19",
+    "title": "BookSphere",
+    "category": "E-commerce / Digital Library",
+    "type": "Web Application",
+    "icon": "Book",
+    "thumbnail": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&auto=format&fit=crop&q=60",
+    "images": [
+        "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&auto=format&fit=crop&q=60"
+    ],
+    "description": "A feature-rich digital bookstore and library management platform designed for a seamless reading discovery experience. BookSphere features dynamic book sliders, real-time catalog management via Supabase, advanced category filtering, and a responsive shopping interface, all brought to life with smooth Framer Motion animations.",
+    "role": "Full Stack Engineer",
+    "tech": {
+        "frontend": [
+            "React 19",
+            "Vite",
+            "Tailwind CSS v4",
+            "React Router 7",
+            "Framer Motion"
+        ],
+        "backend": [
+            "Supabase (PostgreSQL & Auth)"
+        ],
+        "services": [
+            "Axios for Data Fetching",
+            "React Icons",
+            "Vercel Deployment"
+        ]
+    },
+    "techStack": [
+        "React",
+        "Supabase",
+        "Tailwind"
+    ],
+    "tags": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Supabase",
+        "E-commerce",
+        "Framer Motion",
+        "Responsive Design"
+    ],
+    "links": {
+        "github": "https://github.com/muhammad-abdullah11/BookSphere",
+        "live": "https://thebooksphere.vercel.app/"
+    },
+    "ui_features": [
+        "Dynamic Book Discovery Slider & Hero Sections",
+        "Real-time Database Integration for Catalog & Inventory",
+        "Advanced Product Filtering & Shop Interface",
+        "Interactive Book Details with Metadata Showcasing",
+        "Comprehensive User Authentication System (Login/SignUp)",
+        "Premium Minimalist UI with Elegant Typography & Transitions"
+    ]
 }
+
 
 
 
