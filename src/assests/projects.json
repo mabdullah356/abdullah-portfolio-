@@ -832,6 +832,62 @@
         "Real-time Statistic Cards (Followers, Following, Repos)",
         "Premium Minimalist UI with Slate & Blue Accents"
     ]
+},
+{
+    "id": "16",
+    "title": "EChat",
+    "category": "Communication / AI Chat",
+    "type": "Web Application",
+    "icon": "MessageSquare",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdGJvdCUyMGFpfGVufDB8fDB8fHww",
+    "images": [
+        "https://media.istockphoto.com/id/2226083558/photo/human-interaction-with-ai-technology-via-mobile.webp?a=1&b=1&s=612x612&w=0&k=20&c=iA5wlrKdGo4Crp7ScZAU0arN_3tCUjdLlQp297X0ODk=",
+        "https://media.istockphoto.com/id/2223894979/photo/ai-agents-and-assistants-man-using-a-laptop-with-futuristic-software-for-generating-images.webp?a=1&b=1&s=612x612&w=0&k=20&c=y2HdcLz-EHBl9Xv67fhqkHA6ITfq4DdSKRaEIGUDlgE="
+    ],
+    "description": "EChat is a premium, high-performance AI-powered chat application designed to provide a seamless conversational experience. Built with React 19 and Vite, it integrates the Google Gemini Flash API for intelligent real-time responses. The platform features secure Clerk authentication, dynamic message streaming, and a mobile-first responsive design, all wrapped in a sleek, minimalist UI.",
+    "role": "Lead Full Stack Developer",
+    "tech": {
+        "frontend": [
+            "React 19",
+            "Vite",
+            "Tailwind CSS v4",
+            "React Router 7"
+        ],
+        "backend": [
+            "Google Gemini API",
+            "Clerk Authentication"
+        ],
+        "services": [
+            "Axios for Data Fetching",
+            "React Icons",
+            "Lucide React"
+        ]
+    },
+    "techStack": [
+        "React"
+    ],
+    "tags": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "AI Chat",
+        "Gemini API",
+        "Clerk Auth",
+        "Responsive Design"
+    ],
+    "links": {
+        "github": "https://github.com/muhammad-abdullah11/EChat",
+        "live": "https://e-chat-lite.vercel.app/"
+    },
+    "ui_features": [
+        "Clean AI Chat Interface with Instant Semantic Responses",
+        "Robust User Authentication & Profile Management via Clerk",
+        "Dynamic Typing Indicators & Real-time Message Rendering",
+        "Context-Aware Conversation History & New Chat Logic",
+        "Mobile-First Responsive Layout with Optimized Layout Shift",
+        "Premium Minimalist Aesthetic with Zinc & Slate Accents"
+    ]
 }
+
 
 ]
