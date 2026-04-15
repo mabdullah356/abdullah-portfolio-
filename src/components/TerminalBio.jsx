@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState,useRef } from "react";
 import { motion } from "framer-motion";
 import { FaTerminal, FaCircle } from "react-icons/fa";
 
@@ -44,7 +44,7 @@ const COMMANDS = {
   socials: [
     "LinkedIn: Muhammad Abdullah",
     "Dribbble: @muhammad-abdullah11",
-    "Twitter/X: @abdullah_dev",
+    "Twitter/X: @btw_abdullahyy",
   ],
 };
 
@@ -54,14 +54,14 @@ export default function TerminalBio() {
     { text: 'Type "help" to see available commands.', type: "info" },
   ]);
   const [input, setInput] = useState("");
-  const scrollRef = useRef(null);
-  const inputRef = useRef(null);
+  // const scrollRef = useRef(null);
+  // const inputRef = useRef(null);
 
-  useEffect(() => {
-    if (scrollRef.current) {
-      scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-    }
-  }, [history]);
+  // useEffect(() => {
+  //   if (scrollRef.current) {
+  //     scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+  //   }
+  // }, [history]);
 
   const handleCommand = (e) => {
     e.preventDefault();
@@ -94,7 +94,7 @@ export default function TerminalBio() {
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      // viewport={{ once: true }}
       className="max-w-4xl mx-auto my-12 overflow-hidden rounded-xl border border-gray-800 bg-[#0d1117] shadow-2xl"
     >
       {/* Terminal Title Bar */}
@@ -112,8 +112,8 @@ export default function TerminalBio() {
 
       {/* Terminal Body */}
       <div 
-        ref={scrollRef}
-        onClick={() => inputRef.current?.focus()}
+        // ref={scrollRef}
+        // onClick={() => inputRef.current?.focus()}
         className="h-80 overflow-y-auto p-4 font-mono text-sm leading-relaxed cursor-text scrollbar-thin scrollbar-thumb-gray-800"
       >
         {history.map((entry, index) => (
@@ -131,12 +131,12 @@ export default function TerminalBio() {
         <form onSubmit={handleCommand} className="flex mt-2">
           <span className="text-green-400 mr-2">user@abdullah:~$</span>
           <input
-            ref={inputRef}
+            // ref={inputRef}
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             className="flex-1 bg-transparent border-none outline-none text-white focus:ring-0 p-0 m-0"
-            autoFocus
+            // autoFocus
             spellCheck="false"
             autoComplete="off"
           />
