@@ -1177,5 +1177,68 @@
             "Adaptive Design Language (Full-OS Desktop to iOS-styled Mobile UI)",
             "Suite of Interactive Apps (About, Projects, Resume, Services, Settings)"
         ]
+    },
+    {
+        "id": "22",
+        "title": "Trimly - Smart URL Shortener",
+        "category": "Productivity / Web Tool",
+        "type": "Next.js Web Application",
+        "icon": "Link",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lTWecGZ2SJb1beaZJU-g9tFw-hHmTBZDjQ&s",
+        "images": [
+            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=60"
+        ],
+        "description": "A high-performance URL shortener and comprehensive analytics platform engineered for speed and deep visitor insights. Built with Next.js 16 and Tailwind CSS 4, it features instant link shortening, secure multi-factor authentication, and an advanced tracking engine that captures detailed geolocation, device specifications, and browser data. The application provides a seamless, emerald-themed administration dashboard for managing shortened links with real-time data persistence through MongoDB.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS v4",
+                "Axios",
+                "Framer Motion"
+            ],
+            "backend": [
+                "Next.js Route Handlers",
+                "MongoDB",
+                "Mongoose",
+                "NextAuth.js",
+                "nanoid"
+            ],
+            "services": [
+                "Nodemailer (Verification)",
+                "ua-parser-js (Analytics)",
+                "ipinfo.io API",
+                "Vercel Deployment"
+            ]
+        },
+        "techStack": [
+            "Next.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "tags": [
+            "Next.js",
+            "Tailwind CSS v4",
+            "MongoDB",
+            "URL Shortener",
+            "Analytics",
+            "Full Stack",
+            "NextAuth"
+        ],
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/trimly",
+            "live": "https://trimly-delta.vercel.app/"
+        },
+        "ui_features": [
+            "One-Click High-Performance URL Shortening System",
+            "Advanced Visitor Analytics Dashboard (Geo, Device, Browser Tracking)",
+            "Secure Multi-Factor Authentication with Email Verification",
+            "Real-Time Link Management & Interaction History Persistence",
+            "High-Fidelity Responsive Emerald Design System",
+            "Intelligent Bot Detection & Security Filtering Logic",
+            "Sophisticated Geolocation Integration via ipinfo.io"
+        ]
     }
 ]
