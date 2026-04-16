@@ -779,286 +779,342 @@
         }
     },
     {
-    "id": "15",
-    "title": "GitLens",
-    "category": "Developer Tools / Analytics",
-    "type": "Web Application",
-    "icon": "Github",
-    "thumbnail": "https://images.unsplash.com/photo-1654277041218-84424c78f0ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2l0aHVifGVufDB8fDB8fHww",
-    "images": ["https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253824/Capture_kiclkj.png",
-    "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture1_odhbtm.png",
-    "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture2_hezm0s.png",
-    "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture4_qnw3fj.png"
-    ],
-    "description": "A high-performance GitHub profile visualizer and analyzer designed to give developers deep insights into open-source contributions. GitLens features real-time profile fetching, smart repository analytics, activity level tracking, and an interactive contribution heat-map, all delivered via a clean, modern interface.",
-    "role": "Full Stack Engineer",
-    "tech": {
-        "frontend": [
-            "React 19",
+        "id": "15",
+        "title": "GitLens",
+        "category": "Developer Tools / Analytics",
+        "type": "Web Application",
+        "icon": "Github",
+        "thumbnail": "https://images.unsplash.com/photo-1654277041218-84424c78f0ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2l0aHVifGVufDB8fDB8fHww",
+        "images": [
+            "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253824/Capture_kiclkj.png",
+            "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture1_odhbtm.png",
+            "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture2_hezm0s.png",
+            "https://res.cloudinary.com/dujmr03is/image/upload/q_auto/f_auto/v1776253825/Capture4_qnw3fj.png"
+        ],
+        "description": "A high-performance GitHub profile visualizer and analyzer designed to give developers deep insights into open-source contributions. GitLens features real-time profile fetching, smart repository analytics, activity level tracking, and an interactive contribution heat-map, all delivered via a clean, modern interface.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS v4",
+                "React Router 7"
+            ],
+            "backend": [
+                "GitHub REST API"
+            ],
+            "services": [
+                "Axios for Data Fetching",
+                "React Icons",
+                "Custom Smart Insights Engine"
+            ]
+        },
+        "techStack": [
+            "React"
+        ],
+        "tags": [
+            "React",
             "Vite",
-            "Tailwind CSS v4",
-            "React Router 7"
+            "Tailwind CSS",
+            "GitHub API",
+            "Data Visualization",
+            "Developer Tools",
+            "Responsive Design"
         ],
-        "backend": [
-            "GitHub REST API"
-        ],
-        "services": [
-            "Axios for Data Fetching",
-            "React Icons",
-            "Custom Smart Insights Engine"
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/GitLens",
+            "live": "https://gitlens-pro.vercel.app/"
+        },
+        "ui_features": [
+            "Dynamic GitHub Profile Search Interface",
+            "Smart Insights Module (Language, Stars & Activity)",
+            "Interactive Contribution Heat-map Visualization",
+            "Comprehensive Repository List with Metadata",
+            "Real-time Statistic Cards (Followers, Following, Repos)",
+            "Premium Minimalist UI with Slate & Blue Accents"
         ]
     },
-    "techStack": [
-        "React"
-    ],
-    "tags": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "GitHub API",
-        "Data Visualization",
-        "Developer Tools",
-        "Responsive Design"
-    ],
-    "links": {
-        "github": "https://github.com/muhammad-abdullah11/GitLens",
-        "live": "https://gitlens-pro.vercel.app/"
-    },
-    "ui_features": [
-        "Dynamic GitHub Profile Search Interface",
-        "Smart Insights Module (Language, Stars & Activity)",
-        "Interactive Contribution Heat-map Visualization",
-        "Comprehensive Repository List with Metadata",
-        "Real-time Statistic Cards (Followers, Following, Repos)",
-        "Premium Minimalist UI with Slate & Blue Accents"
-    ]
-},
-{
-    "id": "16",
-    "title": "EChat",
-    "category": "Communication / AI Chat",
-    "type": "Web Application",
-    "icon": "MessageSquare",
-    "thumbnail": "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdGJvdCUyMGFpfGVufDB8fDB8fHww",
-    "images": [
-        "https://media.istockphoto.com/id/2226083558/photo/human-interaction-with-ai-technology-via-mobile.webp?a=1&b=1&s=612x612&w=0&k=20&c=iA5wlrKdGo4Crp7ScZAU0arN_3tCUjdLlQp297X0ODk=",
-        "https://media.istockphoto.com/id/2223894979/photo/ai-agents-and-assistants-man-using-a-laptop-with-futuristic-software-for-generating-images.webp?a=1&b=1&s=612x612&w=0&k=20&c=y2HdcLz-EHBl9Xv67fhqkHA6ITfq4DdSKRaEIGUDlgE="
-    ],
-    "description": "EChat is a premium, high-performance AI-powered chat application designed to provide a seamless conversational experience. Built with React 19 and Vite, it integrates the Google Gemini Flash API for intelligent real-time responses. The platform features secure Clerk authentication, dynamic message streaming, and a mobile-first responsive design, all wrapped in a sleek, minimalist UI.",
-    "role": "Lead Full Stack Developer",
-    "tech": {
-        "frontend": [
-            "React 19",
+    {
+        "id": "16",
+        "title": "EChat",
+        "category": "Communication / AI Chat",
+        "type": "Web Application",
+        "icon": "MessageSquare",
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdGJvdCUyMGFpfGVufDB8fDB8fHww",
+        "images": [
+            "https://media.istockphoto.com/id/2226083558/photo/human-interaction-with-ai-technology-via-mobile.webp?a=1&b=1&s=612x612&w=0&k=20&c=iA5wlrKdGo4Crp7ScZAU0arN_3tCUjdLlQp297X0ODk=",
+            "https://media.istockphoto.com/id/2223894979/photo/ai-agents-and-assistants-man-using-a-laptop-with-futuristic-software-for-generating-images.webp?a=1&b=1&s=612x612&w=0&k=20&c=y2HdcLz-EHBl9Xv67fhqkHA6ITfq4DdSKRaEIGUDlgE="
+        ],
+        "description": "EChat is a premium, high-performance AI-powered chat application designed to provide a seamless conversational experience. Built with React 19 and Vite, it integrates the Google Gemini Flash API for intelligent real-time responses. The platform features secure Clerk authentication, dynamic message streaming, and a mobile-first responsive design, all wrapped in a sleek, minimalist UI.",
+        "role": "Lead Full Stack Developer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS v4",
+                "React Router 7"
+            ],
+            "backend": [
+                "Google Gemini API",
+                "Clerk Authentication"
+            ],
+            "services": [
+                "Axios for Data Fetching",
+                "React Icons",
+                "Lucide React"
+            ]
+        },
+        "techStack": [
+            "React"
+        ],
+        "tags": [
+            "React",
             "Vite",
-            "Tailwind CSS v4",
-            "React Router 7"
+            "Tailwind CSS",
+            "AI Chat",
+            "Gemini API",
+            "Clerk Auth",
+            "Responsive Design"
         ],
-        "backend": [
-            "Google Gemini API",
-            "Clerk Authentication"
-        ],
-        "services": [
-            "Axios for Data Fetching",
-            "React Icons",
-            "Lucide React"
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/EChat",
+            "live": "https://e-chat-lite.vercel.app/"
+        },
+        "ui_features": [
+            "Clean AI Chat Interface with Instant Semantic Responses",
+            "Robust User Authentication & Profile Management via Clerk",
+            "Dynamic Typing Indicators & Real-time Message Rendering",
+            "Context-Aware Conversation History & New Chat Logic",
+            "Mobile-First Responsive Layout with Optimized Layout Shift",
+            "Premium Minimalist Aesthetic with Zinc & Slate Accents"
         ]
     },
-    "techStack": [
-        "React"
-    ],
-    "tags": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "AI Chat",
-        "Gemini API",
-        "Clerk Auth",
-        "Responsive Design"
-    ],
-    "links": {
-        "github": "https://github.com/muhammad-abdullah11/EChat",
-        "live": "https://e-chat-lite.vercel.app/"
-    },
-    "ui_features": [
-        "Clean AI Chat Interface with Instant Semantic Responses",
-        "Robust User Authentication & Profile Management via Clerk",
-        "Dynamic Typing Indicators & Real-time Message Rendering",
-        "Context-Aware Conversation History & New Chat Logic",
-        "Mobile-First Responsive Layout with Optimized Layout Shift",
-        "Premium Minimalist Aesthetic with Zinc & Slate Accents"
-    ]
-},
-{
-    "id": "17",
-    "title": "Guardly",
-    "category": "Security / Productivity",
-    "type": "Web Application",
-    "icon": "Shield",
-    "thumbnail": "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
-    "images": [
-        "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
-        "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3N3b3JkJTIwbWFuYWdlcnxlbnwwfHwwfHx8MA%3D%3D"
-    ],
-    "description": "A high-performance, military-grade password management solution designed for ultimate security and ease of use. Guardly features a zero-knowledge architecture, smart autofill capabilities, and a sleek modern interface to securely manage both digital credentials and financial wallets across all devices.",
-    "role": "Frontend Engineer",
-    "tech": {
-        "frontend": [
-            "React 19",
+    {
+        "id": "17",
+        "title": "Guardly",
+        "category": "Security / Productivity",
+        "type": "Web Application",
+        "icon": "Shield",
+        "thumbnail": "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
+        "images": [
+            "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
+            "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3N3b3JkJTIwbWFuYWdlcnxlbnwwfHwwfHx8MA%3D%3D"
+        ],
+        "description": "A high-performance, military-grade password management solution designed for ultimate security and ease of use. Guardly features a zero-knowledge architecture, smart autofill capabilities, and a sleek modern interface to securely manage both digital credentials and financial wallets across all devices.",
+        "role": "Frontend Engineer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS v4",
+                "Framer Motion"
+            ],
+            "backend": [
+                "React Context API",
+                "Browser LocalStorage"
+            ],
+            "services": [
+                "React Icons",
+                "Custom Security Hooks",
+                "Encryption Workflow Logic"
+            ]
+        },
+        "techStack": [
+            "React"
+        ],
+        "tags": [
+            "React",
             "Vite",
-            "Tailwind CSS v4",
-            "Framer Motion"
+            "Tailwind CSS",
+            "Security",
+            "Password Manager",
+            "Productivity",
+            "Responsive Design"
         ],
-        "backend": [
-            "React Context API",
-            "Browser LocalStorage"
-        ],
-        "services": [
-            "React Icons",
-            "Custom Security Hooks",
-            "Encryption Workflow Logic"
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/password-manager",
+            "live": "https://the-password-vault.vercel.app/"
+        },
+        "ui_features": [
+            "Interactive Dashboard with Motion-enhanced Transitions",
+            "Secure Credentials Vault with Real-time CRUD Operations",
+            "Stored Wallets Module for Credit Card Management",
+            "Zero-Knowledge Architecture UI Visualization",
+            "Responsive Grid Layout with High-Fidelity Iconography",
+            "Premium Minimalist UI with Slate, Blue & Green Accents"
         ]
     },
-    "techStack": [
-        "React"
-    ],
-    "tags": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "Security",
-        "Password Manager",
-        "Productivity",
-        "Responsive Design"
-    ],
-    "links": {
-        "github": "https://github.com/muhammad-abdullah11/password-manager",
-        "live": "https://the-password-vault.vercel.app/"
-    },
-    "ui_features": [
-        "Interactive Dashboard with Motion-enhanced Transitions",
-        "Secure Credentials Vault with Real-time CRUD Operations",
-        "Stored Wallets Module for Credit Card Management",
-        "Zero-Knowledge Architecture UI Visualization",
-        "Responsive Grid Layout with High-Fidelity Iconography",
-        "Premium Minimalist UI with Slate, Blue & Green Accents"
-    ]
-},
-{
-    "id": "18",
-    "title": "SonicStream",
-    "category": "Entertainment / Streaming",
-    "type": "Web Application",
-    "icon": "Music",
-    "thumbnail": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
-    "images": [
-        "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1200&auto=format&fit=crop&q=60"
-    ],
-    "description": "A high-performance music streaming platform inspired by Spotify. SonicStream leverages the Spotify Web API to deliver real-time track searches, seamless playback, and personalized playlist management within a stunning, glassmorphic interface designed for both desktop and mobile users.",
-    "role": "Full Stack Developer",
-    "tech": {
-        "frontend": [
-            "React 19",
+    {
+        "id": "18",
+        "title": "SonicStream",
+        "category": "Entertainment / Streaming",
+        "type": "Web Application",
+        "icon": "Music",
+        "thumbnail": "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
+        "images": [
+            "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?w=1200&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=1200&auto=format&fit=crop&q=60"
+        ],
+        "description": "A high-performance music streaming platform inspired by Spotify. SonicStream leverages the Spotify Web API to deliver real-time track searches, seamless playback, and personalized playlist management within a stunning, glassmorphic interface designed for both desktop and mobile users.",
+        "role": "Full Stack Developer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS v4",
+                "Framer Motion"
+            ],
+            "backend": [
+                "Spotify Web API",
+                "React Context API",
+                "OAuth 2.0"
+            ],
+            "services": [
+                "React Icons",
+                "Lucide React",
+                "Axios / Fetch API"
+            ]
+        },
+        "techStack": [
+            "React"
+        ],
+        "tags": [
+            "React",
             "Vite",
-            "Tailwind CSS v4",
-            "Framer Motion"
+            "Tailwind CSS",
+            "Spotify API",
+            "Entertainment",
+            "Streaming",
+            "Responsive Design"
         ],
-        "backend": [
-            "Spotify Web API",
-            "React Context API",
-            "OAuth 2.0"
-        ],
-        "services": [
-            "React Icons",
-            "Lucide React",
-            "Axios / Fetch API"
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/spotify",
+            "live": "https://the-spotify-music-lite.vercel.app/"
+        },
+        "ui_features": [
+            "Real-time Music Playback with Interactive Seek Bar",
+            "Dynamic Search Engine for Artists, Albums, and Tracks",
+            "Glassmorphic Dashboard with Fluid Motion Transitions",
+            "Personalized Library and Playlist Management System",
+            "Responsive Grid Layout for Seamless Cross-Device Experience",
+            "Premium UI with Deep Obsidian, Emerald, and Slate Accents"
         ]
     },
-    "techStack": [
-        "React"
-    ],
-    "tags": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "Spotify API",
-        "Entertainment",
-        "Streaming",
-        "Responsive Design"
-    ],
-    "links": {
-        "github": "https://github.com/muhammad-abdullah11/spotify",
-        "live": "https://the-spotify-music-lite.vercel.app/"
-    },
-    "ui_features": [
-        "Real-time Music Playback with Interactive Seek Bar",
-        "Dynamic Search Engine for Artists, Albums, and Tracks",
-        "Glassmorphic Dashboard with Fluid Motion Transitions",
-        "Personalized Library and Playlist Management System",
-        "Responsive Grid Layout for Seamless Cross-Device Experience",
-        "Premium UI with Deep Obsidian, Emerald, and Slate Accents"
-    ]
-},
-{
-    "id": "19",
-    "title": "BookSphere",
-    "category": "E-commerce / Digital Library",
-    "type": "Web Application",
-    "icon": "Book",
-    "thumbnail": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&auto=format&fit=crop&q=60",
-    "images": [
-        "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&auto=format&fit=crop&q=60"
-    ],
-    "description": "A feature-rich digital bookstore and library management platform designed for a seamless reading discovery experience. BookSphere features dynamic book sliders, real-time catalog management via Supabase, advanced category filtering, and a responsive shopping interface, all brought to life with smooth Framer Motion animations.",
-    "role": "Full Stack Engineer",
-    "tech": {
-        "frontend": [
-            "React 19",
+    {
+        "id": "19",
+        "title": "BookSphere",
+        "category": "E-commerce / Digital Library",
+        "type": "Web Application",
+        "icon": "Book",
+        "thumbnail": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&auto=format&fit=crop&q=60",
+        "images": [
+            "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1200&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&auto=format&fit=crop&q=60"
+        ],
+        "description": "A feature-rich digital bookstore and library management platform designed for a seamless reading discovery experience. BookSphere features dynamic book sliders, real-time catalog management via Supabase, advanced category filtering, and a responsive shopping interface, all brought to life with smooth Framer Motion animations.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS v4",
+                "React Router 7",
+                "Framer Motion"
+            ],
+            "backend": [
+                "Supabase (PostgreSQL & Auth)"
+            ],
+            "services": [
+                "Axios for Data Fetching",
+                "React Icons",
+                "Vercel Deployment"
+            ]
+        },
+        "techStack": [
+            "React",
+            "Supabase",
+            "Tailwind"
+        ],
+        "tags": [
+            "React",
             "Vite",
-            "Tailwind CSS v4",
-            "React Router 7",
-            "Framer Motion"
+            "Tailwind CSS",
+            "Supabase",
+            "E-commerce",
+            "Framer Motion",
+            "Responsive Design"
         ],
-        "backend": [
-            "Supabase (PostgreSQL & Auth)"
-        ],
-        "services": [
-            "Axios for Data Fetching",
-            "React Icons",
-            "Vercel Deployment"
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/BookSphere",
+            "live": "https://thebooksphere.vercel.app/"
+        },
+        "ui_features": [
+            "Dynamic Book Discovery Slider & Hero Sections",
+            "Real-time Database Integration for Catalog & Inventory",
+            "Advanced Product Filtering & Shop Interface",
+            "Interactive Book Details with Metadata Showcasing",
+            "Comprehensive User Authentication System (Login/SignUp)",
+            "Premium Minimalist UI with Elegant Typography & Transitions"
         ]
     },
-    "techStack": [
-        "React",
-        "Supabase",
-        "Tailwind"
-    ],
-    "tags": [
-        "React",
-        "Vite",
-        "Tailwind CSS",
-        "Supabase",
-        "E-commerce",
-        "Framer Motion",
-        "Responsive Design"
-    ],
-    "links": {
-        "github": "https://github.com/muhammad-abdullah11/BookSphere",
-        "live": "https://thebooksphere.vercel.app/"
-    },
-    "ui_features": [
-        "Dynamic Book Discovery Slider & Hero Sections",
-        "Real-time Database Integration for Catalog & Inventory",
-        "Advanced Product Filtering & Shop Interface",
-        "Interactive Book Details with Metadata Showcasing",
-        "Comprehensive User Authentication System (Login/SignUp)",
-        "Premium Minimalist UI with Elegant Typography & Transitions"
-    ]
-}
-
-
-
-
-
+    {
+        "id": "20",
+        "title": "Instagram-Lite",
+        "category": "Social Media / Connect",
+        "type": "Web Application",
+        "icon": "Instagram",
+        "thumbnail": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5zdGFncmFtfGVufDB8fDB8fHww",
+        "images": [
+            "https://images.unsplash.com/photo-1595039838779-f3780873afdd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5zdGFncmFtfGVufDB8fDB8fHww",
+            "https://plus.unsplash.com/premium_photo-1683842189051-19fc4188df7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluc3RhZ3JhbXxlbnwwfHwwfHx8MA%3D%3D"
+        ],
+        "description": "A high-performance, pixel-perfect Instagram replication engineered for seamless social interaction. Built with Next.js 16 and Tailwind CSS 4, it features a responsive glassmorphic UI, secure authentication via NextAuth, and a scalable MongoDB backend. The application delivers a premium user experience with real-time post interactions, dynamic route grouping, and sophisticated server-side rendering for optimal performance.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS v4",
+                "Axios"
+            ],
+            "backend": [
+                "Next.js Server Actions",
+                "MongoDB",
+                "Mongoose",
+                "NextAuth.js"
+            ],
+            "services": [
+                "Cloudinary Media Engine",
+                "Bcrypt.js (Security)",
+                "React Icons"
+            ]
+        },
+        "techStack": [
+            "Next.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "tags": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "NextAuth",
+            "Social Media Clone",
+            "Full Stack",
+            "Responsive Design"
+        ],
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/instagram-lite",
+            "live": "https://the-instagram-lite.vercel.app/"
+        },
+        "ui_features": [
+            "Pixel-Perfect Instagram UI with Modern Glassmorphism",
+            "Secure Authentication Flow with Route Protection",
+            "Dynamic Feed Architecture with Optimized Layout Shifting",
+            "Seamless Post Interactions (Like, Comment, Save functionality)",
+            "Advanced User Profiles with Follower/Following Logic",
+            "High-Performance Server Actions for Real-time Data Handling",
+            "Responsive Navigation System (Sidebar & Bottom Bar)"
+        ]
+    }
 ]
