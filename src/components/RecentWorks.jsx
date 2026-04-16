@@ -118,11 +118,11 @@ export default function RecentWork() {
 
   const navigate = useNavigate();
   const [active, setActive] = useState("All");
-  const filterType=["All","MERN Stack","Next.js","React"]
+  const filterType = ["All", "MERN Stack", "Next.js", "React"]
   const filtered =
     active === "All"
-      ? Projects
-      : Projects.filter((p) => p.techStack[0]==active);
+      ? Projects.sort(() => Math.random() - 0.5)
+      : Projects.filter((p) => p.techStack[0] == active).sort(() => Math.random() - 0.5);
 
   return (
     <section className="w-full min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-6 my-4 perspective-1000">
