@@ -1116,5 +1116,66 @@
             "High-Performance Server Actions for Real-time Data Handling",
             "Responsive Navigation System (Sidebar & Bottom Bar)"
         ]
+    },
+    {
+        "id": "21",
+        "title": "Aventine OS - macOS Portfolio",
+        "category": "Interactive Experience / Portfolio",
+        "type": "Next.js Web Application",
+        "icon": "Monitor",
+        "thumbnail": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&auto=format&fit=crop&q=60",
+        "images": [
+            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1200&auto=format&fit=crop&q=60"
+        ],
+        "description": "A premium, high-performance macOS-inspired portfolio engineered to replicate a full desktop environment within the browser. Built with Next.js 16 and Tailwind CSS 4, it features a robust custom window management system, a dynamic dock with magnification effects, and an integrated wallpaper engine. The application delivers a pixel-perfect Apple-style UI with fluid Framer Motion animations and intelligent responsive adaptation, transitioning seamlessly from a multi-window desktop OS to a simplified iOS-like mobile interface.",
+        "role": "Lead Frontend Engineer",
+        "tech": {
+            "frontend": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS v4",
+                "Framer Motion",
+                "react-rnd (Window Logic)",
+                "shadcn/ui"
+            ],
+            "backend": [
+                "Next.js Server Actions",
+                "LocalStorage Persistence Engine",
+                "Custom Window Management Hook"
+            ],
+            "services": [
+                "Lucide React Icons",
+                "Vercel Deployment",
+                "React Icons (Socials)"
+            ]
+        },
+        "techStack": [
+            "Next.js",
+            "Tailwind CSS",
+            "Framer Motion"
+        ],
+        "tags": [
+            "Next.js",
+            "Tailwind CSS v4",
+            "Framer Motion",
+            "macOS Clone",
+            "Portfolio OS",
+            "Interactive UI",
+            "Full Stack"
+        ],
+        "links": {
+            "github": "https://github.com/muhammad-abdullah11/mabdullah",
+            "live": "https://mabdullah-portfolio-me.vercel.app/"
+        },
+        "ui_features": [
+            "Pixel-Perfect macOS Desktop UI with Sophisticated Glassmorphism",
+            "Dynamic Dock System with Intelligent Icon Magnification Effects",
+            "Robust Window Manager with Drag, Resize, Focus, and Fullscreen Logic",
+            "Authentic Apple-Style Boot Sequence and Fluid System Animations",
+            "Integrated Wallpaper Engine for Real-Time UI Customization",
+            "Adaptive Design Language (Full-OS Desktop to iOS-styled Mobile UI)",
+            "Suite of Interactive Apps (About, Projects, Resume, Services, Settings)"
+        ]
     }
 ]
