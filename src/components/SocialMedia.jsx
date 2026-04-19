@@ -18,7 +18,7 @@ const items = [
     hoverBg: "hover:bg-gray-700",
   },
   {
-    href: "https://www.linkedin.com/in/muhammad-abdullah112/",
+    href: "https://www.linkedin.com/in/mabdullah555/",
     icon: <FaLinkedin />,
     label: "LinkedIn",
     bg: "bg-blue-700",
