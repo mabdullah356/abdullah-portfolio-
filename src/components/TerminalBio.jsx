@@ -39,11 +39,11 @@ const COMMANDS = {
     "Location: Pakistan",
   ],
   github: [
-    "Opening... https://github.com/muhammad-abdullah11",
+    "Opening... https://github.com/mabdullah356",
   ],
   socials: [
     "LinkedIn: Muhammad Abdullah",
-    "Dribbble: @muhammad-abdullah11",
+    "Dribbble: @mabdullah356",
     "Twitter/X: @btw_abdullahyy",
   ],
 };
@@ -77,7 +77,7 @@ export default function TerminalBio() {
       newHistory.push({ text: "Session ended. Refresh to restart.", type: "info" });
       setHistory(newHistory);
     } else if (cmd === "github") {
-      window.open("https://github.com/muhammad-abdullah11", "_blank");
+      window.open("https://github.com/mabdullah356", "_blank");
       newHistory.push({ text: "Opening GitHub profile in a new tab...", type: "output" });
       setHistory(newHistory);
     } else if (COMMANDS[cmd]) {

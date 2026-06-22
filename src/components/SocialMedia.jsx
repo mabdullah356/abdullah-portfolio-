@@ -11,7 +11,7 @@ import {
 
 const items = [
   {
-    href: "https://github.com/muhammad-abdullah11",
+    href: "https://github.com/mabdullah356",
     icon: <FaGithub />,
     label: "GitHub",
     bg: "bg-gray-800",
