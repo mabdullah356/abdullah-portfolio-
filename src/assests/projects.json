@@ -477,7 +477,7 @@
         ],
         "links": {
             "github": "https://github.com/mabdullah356/the-rhythm-room",
-            "live": "https://the-rhythm-room.vercel.app"
+            "live": "https://the-rhythm-room-silk.vercel.app/"
         },
         "ui_features": [
             "Responsive hero and course listings",
