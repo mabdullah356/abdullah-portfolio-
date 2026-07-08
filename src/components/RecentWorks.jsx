@@ -117,13 +117,16 @@ const ProjectCard = ({ item, index, navigate }) => {
 export default function RecentWork() {
 
   const navigate = useNavigate();
-  const [active, setActive] = useState("All");
+  const [active, setActive] = useState(localStorage.getItem("workActiveTab") || "All");
   const filterType = ["All", "MERN Stack", "Next.js", "React"]
   const filtered =
     active === "All"
       ? Projects.sort(() => Math.random() - 0.5)
       : Projects.filter((p) => p.techStack[0] == active).sort(() => Math.random() - 0.5);
-
+  const setActiveTab= (tab) => {
+    setActive(tab);
+    localStorage.setItem("workActiveTab", tab);
+  }
   return (
     <section className="w-full min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-6 my-4 perspective-1000">
       <div className="max-w-7xl mx-auto text-center mb-12">
@@ -151,7 +154,7 @@ export default function RecentWork() {
         {filterType.map((cat) => (
           <motion.button
             key={cat}
-            onClick={() => setActive(cat)}
+            onClick={() => setActiveTab(cat)}
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.45 }}
