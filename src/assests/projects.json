@@ -815,7 +815,7 @@
         ],
         "links": {
             "github": "https://github.com/mabdullah356/EChat",
-            "live": ""
+            "live": "https://echat-pro.vercel.app/"
         },
         "ui_features": [
             "Clean AI Chat Interface with Instant Semantic Responses",
