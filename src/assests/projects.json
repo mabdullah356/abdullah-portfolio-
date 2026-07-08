@@ -701,7 +701,7 @@
         ],
         "links": {
             "github": "https://github.com/mabdullah356/inventory-management-system",
-            "live": ""
+            "live": "https://inventroo-beta.vercel.app/"
         },
         "ui_features": [
             "Enterprise-grade Dashboard with Real-time Metrics",
