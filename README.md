@@ -1,66 +1,45 @@
-# Modern MERN Portfolio
+# Abdullah Portfolio
 
-A production-ready developer portfolio built using the MERN stack, Tailwind CSS, and Framer Motion.  
-This project showcases modern front-end practices, scalable architecture, and clean UI principles suitable for real-world professional portfolios or client-facing presentations.
-
----
-
-## Overview
-
-This portfolio demonstrates full-stack and UI engineering capabilities through an optimized, responsive, and maintainable React-based interface.  
-It follows component-driven architecture, minimal dependencies, and accessibility-first principles.
-
-The application is built to be SEO-friendly, fast, and easily deployable on platforms such as Vercel or Netlify.
+A production-ready developer portfolio built with **React**, **Vite**, and **Tailwind CSS**.  
+Modern, responsive, and optimized for performance — deployable on Vercel or Netlify.
 
 ---
 
 ## Features
 
-- Developed using React and Vite (or CRA alternative)
-- Styled with Tailwind CSS and custom utility classes
-- Smooth UI transitions powered by Framer Motion
-- Icons implemented via React Icons for scalability
+- Built with React 19 + Vite 6
+- Styled with Tailwind CSS v4
+- Smooth animations powered by Framer Motion
+- Icons via React Icons
 - Responsive across all devices
-- Optimized for SEO and fast performance
-- Modular code structure with reusable components
-- Gray-based minimalist theme for a professional aesthetic
-- Clean and extendable design system
+- Modular component architecture
+- Gray-based minimalist theme
 
 ---
 
 ## Tech Stack
 
-| Layer | Tools and Frameworks |
-|-------|----------------------|
-| Frontend | React, Vite (or CRA), Tailwind CSS, Framer Motion, React Icons |
-| Backend (optional) | Node.js, Express, MongoDB |
-| Utilities | Axios / Fetch API, ESLint, Prettier |
-| Deployment | Vercel, Netlify, Render |
+| Layer | Tools |
+|-------|-------|
+| Frontend | React, Vite, Tailwind CSS, Framer Motion, React Icons |
+| Build | Vite |
+| Linting | ESLint |
+| Deployment | Vercel, Netlify |
 
 ---
 
-## Project Structure
-
-
-Each section (Skills, Education, Projects, etc.) is modular, independently updatable, and designed for scalability.
-
----
-
-## Installation and Setup
-
-Clone the repository and install the dependencies.
+## Getting Started
 
 ```bash
-git clone https://github.com/m-abdullah111/abdullah-portfolio-
-
+git clone https://github.com/mabdullah356/abdullah-portfolio-
+cd abdullah-portfolio
 npm install
-
-To start the development server:
-
 npm run dev
+```
 
+### Production Build
 
-To create a production build:
-
+```bash
 npm run build
 npm run preview
+```
