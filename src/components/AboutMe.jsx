@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
 import ProfilePic from "../assests/Abdullah.jpg";
-import PointerImage from "../assests/pointerImage.jpg"
-import SocialMedia from "./SocialMedia"
-import TerminalBio from "./TerminalBio";
+import SocialMedia from "./SocialMedia";
 
 import {
   FaBolt,
@@ -14,21 +12,11 @@ import {
   FaExternalLinkAlt,
   FaCubes,
   FaLayerGroup,
-  FaChevronDown,
   FaEnvelope,
   FaPhone,
+  FaCode,
+  FaArrowRight
 } from "react-icons/fa";
-
-const heroSkills = [
-  "React",
-  "MERN STACK",
-  "Next.js",
-  "UI/UX Design",
-  "Frontend Development",
-  "Backend Development",
-  "Full-Stack Solutions",
-];
-
 
 const techStack = [
   { name: "React", icon: <FaReact /> },
@@ -38,231 +26,260 @@ const techStack = [
   { name: "Tailwind CSS", icon: <FaLayerGroup /> },
   { name: "Framer Motion", icon: <FaBolt /> },
 ];
-const gradients = [
-  "bg-[#99E1D9]",
-  "bg-[#00b4d8]",
-  "bg-[#e63946]",
-  "bg-[#31572c]",
-  "bg-[#adc178]",
-  "bg-[#ffb703]",
-  "bg-[#03045e]",
-  "bg-[#e9c46a]",
-  "bg-[#00a5cf]",
-  "bg-[#274c77]",
 
+const services = [
+  { 
+    id: "01",
+    title: "Frontend Engineering", 
+    desc: "Building fluid, pixel-perfect, and highly animated user interfaces using React, Next.js, and advanced CSS techniques to deliver premium experiences." 
+  },
+  { 
+    id: "02",
+    title: "Backend Architecture", 
+    desc: "Designing robust, secure, and scalable APIs and database structures with Node.js, Express, and MongoDB to power complex applications." 
+  },
+  { 
+    id: "03",
+    title: "UI/UX Interaction", 
+    desc: "Crafting user-centric digital environments with a strong focus on luxury aesthetics, micro-interactions, and flawless usability." 
+  },
+  { 
+    id: "04",
+    title: "Full-Stack Solutions", 
+    desc: "Delivering complete, end-to-end web applications from concept to deployment, ensuring performance and business alignment." 
+  }
 ];
 
-
 export default function AboutMe() {
-
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [gradientIndex, setGradientIndex] = useState(Math.floor(Math.random() * gradients.length));
+  const [isHovered, setIsHovered] = useState(false);
+  const containerRef = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end end"]
+  });
+
+  const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "15%"]);
+
   useEffect(() => {
     const handleMouseMove = (e) => {
-      setMousePosition({
-        x: e.clientX,
-        y: e.clientY,
-      });
-      console.log(e.clientX, e.clientY);
+      setMousePosition({ x: e.clientX, y: e.clientY });
     };
-
     window.addEventListener("mousemove", handleMouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
+    return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
-
-  const [skillIndex, setSkillIndex] = useState(0);
-
-  useEffect(() => {
-    const id = setInterval(() => {
-      setSkillIndex((s) => (s + 1) % heroSkills.length);
-    }, 2000);
-    return () => clearInterval(id);
-  }, []);
-
 
   return (
-    <div className="w-screen min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50 overflow-hidden my-4">
-
+    <div ref={containerRef} className="w-full min-h-screen bg-[#F7F7F5] text-[#111111] overflow-hidden selection:bg-red-600 selection:text-white font-sans relative">
+      
+      {/* Custom Cursor */}
       <motion.div
-        className={`fixed pointer-events-none h-10 rounded-full px-2 py-1 z-50 shadow-lg flex items-center gap-2 ${gradients[gradientIndex]}`}
+        className="fixed top-0 left-0 w-6 h-6 bg-red-600 rounded-full pointer-events-none z-[100] mix-blend-multiply hidden md:block"
         animate={{
-          x: mousePosition.x + 20,
-          y: mousePosition.y + 20,
+          x: mousePosition.x - 12,
+          y: mousePosition.y - 12,
+          scale: isHovered ? 3 : 1,
         }}
-        transition={{
-          type: "spring",
-          damping: 30,
-          stiffness: 200,
-          mass: 0.5,
-        }}
-      >
-        <img
-          src={PointerImage}
-          alt="Abdullah"
-          className="w-8 h-8 rounded-full p-0 border-2 border-white object-cover scale-110"
-        />
-        <h2 className="text-sm font-bold ">Abdullah</h2>
-      </motion.div>
+        transition={{ type: "tween", ease: "backOut", duration: 0.15 }}
+      />
 
-      <section className="relative overflow-hidden pb-28">
-        <div className="max-w-7xl mx-auto px-6 pt-24 lg:pt-32">
-          <div className="flex flex-col lg:flex-row items-center gap-16">
-            {/* Left Side: Text & Info */}
-            <motion.div
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true }}
-              className="flex-1 space-y-8"
-            >
-              <div className="space-y-4">
-                <div className="flex items-center gap-2 text-lg font-medium text-gray-600">
-                  <span className="w-12 h-px bg-red-500"></span> Hello, I'm
-                </div>
-
-                <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                  <span className="text-gray-900">Muhammad</span>
-                  <span className="text-red-600 block">Abdullah</span>
-                </h1>
-
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={skillIndex}
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -8 }}
-                    transition={{ duration: 0.35 }}
-                    className="text-2xl lg:text-3xl font-semibold text-gray-700 h-10"
-                  >
-                    {heroSkills[skillIndex]}
-                  </motion.div>
-                </AnimatePresence>
-              </div>
-
-              <div className="space-y-6">
-                <p className="text-lg text-gray-600 leading-relaxed text-justify max-w-2xl">
-                  I'm a passionate full-stack developer who transforms ideas into
-                  exceptional digital experiences. With expertise in modern web
-                  technologies and a keen eye for design, I build scalable,
-                  user-centric applications that drive business growth.
-                </p>
-                <p className="text-gray-600 leading-relaxed max-w-2xl text-justify">
-                  I combine technical excellence with creative problem-solving,
-                  ensuring every project not only meets requirements but exceeds
-                  expectations.
-                </p>
-              </div>
-
-              <div className="flex flex-wrap gap-4">
-                <a
-                  href="/recent-work"
-                  className="bg-red-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center gap-2"
-                >
-                  <FaExternalLinkAlt /> View My Work
-                </a>
-                <a
-                  download
-                  href="/CV.docx"
-                  className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-full font-semibold hover:border-red-600 hover:text-red-600 transition-all duration-300 inline-flex items-center gap-2"
-                >
-                  <FaDownload /> Download CV
-                </a>
-              </div>
-
-              <div className="pt-4">
-                <SocialMedia />
-              </div>
-            </motion.div>
-
-            {/* Right Side: Profile Image */}
-            <motion.div
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true }}
-              className="flex-1 flex justify-center"
-            >
-              <div className="relative">
-                <div className="relative bg-white p-2 rounded-2xl shadow-2xl">
-                  <img
-                    src={ProfilePic}
-                    alt="Abdullah Khan"
-                    className="w-80 h-96 object-cover rounded-xl"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </motion.div>
+      {/* 1. HERO SECTION (Separated Layout to prevent face hiding) */}
+      <section className="relative w-full pt-32 md:pt-40 pb-20 px-6 md:px-12 lg:px-24">
+        <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-8 max-w-[1400px] mx-auto">
+          
+          {/* Left: Typography */}
+          <div className="w-full lg:w-1/2 flex flex-col z-10 order-2 lg:order-1">
+             <motion.div 
+               initial={{ opacity: 0, y: 20 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.8 }}
+             >
+               <span className="text-red-600 font-bold tracking-widest uppercase mb-6 block text-sm">Creative Developer</span>
+             </motion.div>
+             
+             <motion.h1 
+               initial={{ opacity: 0, y: 40 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
+               className="text-6xl md:text-8xl lg:text-[7.5rem] leading-[0.9] font-black tracking-tighter uppercase text-[#111]"
+             >
+               Muhammad <br />
+               <span className="text-transparent [-webkit-text-stroke:2px_#111]">Abdullah</span>
+             </motion.h1>
+             
+             <motion.div 
+               initial={{ opacity: 0, y: 20 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.8, delay: 0.3 }}
+               className="mt-12 w-full max-w-lg"
+             >
+               <div className="w-16 h-[2px] bg-[#111] mb-8"></div>
+               <p className="text-xl md:text-2xl text-gray-600 font-light leading-relaxed">
+                 I craft digital experiences that merge luxury design with robust engineering. 
+                 <span className="text-[#111] font-medium"> Based in Pakistan, building for the world.</span>
+               </p>
+               
+               <div className="mt-10 flex gap-6" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+                 <a href="/recent-work" className="inline-flex items-center gap-4 px-8 py-4 bg-[#111] text-white rounded-full font-medium hover:bg-red-600 transition-colors duration-500 shadow-xl">
+                   Explore Work <FaArrowRight />
+                 </a>
+               </div>
+             </motion.div>
           </div>
 
+          {/* Right: Unobstructed Image */}
+          <div className="w-full lg:w-1/2 relative flex justify-center lg:justify-end order-1 lg:order-2">
+             <motion.div 
+               initial={{ opacity: 0, scale: 0.95 }}
+               animate={{ opacity: 1, scale: 1 }}
+               transition={{ duration: 1.2, ease: "easeOut" }}
+               className="relative w-full max-w-[500px] aspect-[4/5] lg:aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl"
+             >
+                <motion.img 
+                  style={{ y: imageY }}
+                  src={ProfilePic} 
+                  alt="Muhammad Abdullah" 
+                  className="w-full h-[120%] object-cover object-center absolute -top-[10%]" 
+                />
+             </motion.div>
+             
+             {/* Rotating Badge */}
+             <motion.div 
+               animate={{ rotate: 360 }}
+               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+               className="absolute -bottom-8 -right-4 lg:-bottom-12 lg:-left-12 w-32 h-32 md:w-40 md:h-40 bg-red-600 text-[#F7F7F5] rounded-full flex items-center justify-center p-4 z-30 shadow-2xl"
+             >
+               <svg viewBox="0 0 100 100" className="w-full h-full">
+                 <path id="curve" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
+                 <text className="text-[12px] font-black tracking-[0.2em] uppercase">
+                   <textPath href="#curve">Available for work • Open to offers •</textPath>
+                 </text>
+               </svg>
+             </motion.div>
+          </div>
         </div>
       </section>
 
-      <section className="relative overflow-hidden pb-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <TerminalBio />
-        </div>
-      </section>
-
-      <section className="">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <motion.h3
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8"
+      {/* 2. THE STATEMENT (Massive Editorial Quote) */}
+      <section className="py-32 px-6 md:px-12 lg:px-24 bg-white mt-12 rounded-[3rem] shadow-sm">
+        <div className="max-w-[1200px] mx-auto text-center">
+          <motion.p 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 1 }}
+            className="text-4xl md:text-5xl lg:text-7xl font-light text-[#111] leading-tight tracking-tight"
           >
-            Core Technologies
-          </motion.h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            {techStack.map((tech, index) => (
-              <motion.span
+            "A website is more than information. <br className="hidden lg:block"/>
+            It is a <span className="font-bold border-b-4 border-red-600 pb-2">memorable experience</span> <br className="hidden lg:block"/>
+            crafted through strategy and code."
+          </motion.p>
+        </div>
+      </section>
+
+      {/* 3. CAPABILITIES / SERVICES (Awwwards Style List) */}
+      <section className="py-32 px-6 md:px-12 lg:px-24">
+        <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-16">
+          <div className="lg:w-1/3">
+            <h2 className="text-5xl md:text-6xl font-black uppercase tracking-tighter text-[#111] sticky top-32">
+              What <br /> I Do
+            </h2>
+          </div>
+          <div className="lg:w-2/3 flex flex-col">
+            {services.map((service, index) => (
+              <motion.div 
                 key={index}
-                initial="hidden"
-                whileInView="show"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="flex items-center gap-2 bg-gradient-to-r from-gray-100 to-gray-200 text-gray-700 px-6 py-3 rounded-full font-medium hover:from-red-100 hover:to-pink-100 hover:text-red-700 transition-all duration-300 cursor-pointer"
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="group border-b border-gray-300 py-10 flex flex-col md:flex-row gap-8 items-start hover:border-red-600 transition-colors duration-500 cursor-default"
               >
-                {tech.icon} {tech.name}
-              </motion.span>
+                <div className="text-xl font-bold text-gray-400 group-hover:text-red-600 transition-colors duration-500 w-12">
+                  {service.id}
+                </div>
+                <div>
+                  <h3 className="text-3xl md:text-4xl font-bold text-[#111] mb-4 group-hover:translate-x-2 transition-transform duration-500">
+                    {service.title}
+                  </h3>
+                  <p className="text-xl text-gray-600 font-light leading-relaxed max-w-2xl">
+                    {service.desc}
+                  </p>
+                </div>
+              </motion.div>
             ))}
           </div>
         </div>
       </section>
 
+      {/* 4. INFINITE MARQUEE */}
+      <div className="py-12 bg-[#111] text-[#F7F7F5] overflow-hidden whitespace-nowrap flex items-center -rotate-2 scale-105 my-12 shadow-2xl z-30 relative">
+         <motion.div 
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
+            className="flex text-5xl md:text-7xl font-black uppercase tracking-widest gap-8"
+         >
+            <span>Frontend Development &bull; UI/UX Design &bull; Backend Architecture &bull; Full-Stack Solutions &bull; Frontend Development &bull; UI/UX Design &bull; Backend Architecture &bull; Full-Stack Solutions &bull;</span>
+         </motion.div>
+      </div>
 
+      {/* 5. TECH STACK & SOCIALS */}
+      <section className="py-24 px-6 md:px-12 lg:px-24 flex flex-col lg:flex-row gap-16 lg:gap-24">
+        
+        {/* Core Arsenal */}
+        <div className="lg:w-1/2">
+           <motion.div 
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="bg-white p-12 rounded-[3rem] shadow-sm border border-gray-100 h-full"
+           >
+              <h3 className="text-4xl font-black mb-10 pb-6 border-b border-gray-200 uppercase tracking-tighter text-[#111] flex items-center gap-4">
+                 <FaCode className="text-red-600" /> Expertise
+              </h3>
+              <div className="flex flex-wrap gap-4">
+                {techStack.map((tech, idx) => (
+                  <div 
+                    key={idx} 
+                    className="flex items-center gap-4 px-8 py-5 bg-[#F7F7F5] rounded-full hover:bg-white hover:shadow-lg transition-all duration-300 border border-transparent hover:border-gray-200 cursor-default"
+                  >
+                    <span className="text-red-600 text-2xl">{tech.icon}</span>
+                    <span className="font-bold text-lg tracking-wide text-[#333]">{tech.name}</span>
+                  </div>
+                ))}
+              </div>
+           </motion.div>
+        </div>
 
-      <section className="">
-        <div className="max-w-5xl mx-auto p-6">
-          <motion.div
-            className="rounded-2xl border border-gray-100 bg-white p-8 shadow-sm"
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <div className="grid md:grid-cols-3 gap-6 items-center">
-              <div className="md:col-span-2">
-                <h3 className="text-2xl font-bold">
-                  Let's build something great
-                </h3>
-              </div>
-              <div className="flex md:justify-end gap-3">
-                <a
-                  href="mailto:abdullahworld111@gmail.com"
-                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-red-600 text-white font-semibold hover:bg-red-700 transition"
+        {/* Connect */}
+        <div className="lg:w-1/2">
+           <motion.div 
+             initial={{ opacity: 0, y: 50 }}
+             whileInView={{ opacity: 1, y: 0 }}
+             viewport={{ once: true }}
+             transition={{ duration: 0.8 }}
+             className="bg-[#111] p-12 rounded-[3rem] shadow-2xl h-full flex flex-col justify-center"
+           >
+             <h3 className="text-4xl font-black mb-6 uppercase tracking-tighter text-white">
+               Let's Talk
+             </h3>
+             <p className="text-gray-400 text-xl font-light mb-10">
+               Always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+             </p>
+             <SocialMedia />
+             
+             <div className="mt-12 flex gap-4">
+                <a 
+                  href="/CV.docx" 
+                  download 
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-white text-[#111] rounded-full font-bold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors duration-300"
                 >
-                  <FaEnvelope /> Email me
+                  Resume <FaDownload />
                 </a>
-                <a
-                  href="tel:+923156215289"
-                  className="inline-flex items-center gap-2 px-5 py-3 rounded-full border-2 border-gray-300 text-gray-700 font-semibold hover:border-red-600 hover:text-red-600 transition"
-                >
-                  <FaPhone /> Call me
-                </a>
-              </div>
-            </div>
-          </motion.div>
+             </div>
+           </motion.div>
         </div>
       </section>
 
