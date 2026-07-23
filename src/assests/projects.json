@@ -1298,7 +1298,7 @@
     ],
     "links": {
         "github": "https://github.com/mabdullah356/randomApi",
-        "live": ""
+        "live": "https://random-api-lite.vercel.app/"
     },
     "ui_features": [
         "Interactive landing page with live API previews",
