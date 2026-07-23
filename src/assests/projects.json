@@ -1182,5 +1182,217 @@
             "Modern Glassmorphic UI with Dark/Light Mode Persistence",
             "High-Performance Dual-Entry Ledger for Transactional Integrity"
         ]
+    },
+    {
+  "id": "25",
+  "title": "CourseEra",
+  "category": "Education / E-Learning",
+  "type": "Web Application",
+  "icon": "GraduationCap",
+  "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=60",
+  "images": [
+    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=60",
+    "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&auto=format&fit=crop&q=60",
+    "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1200&auto=format&fit=crop&q=60"
+  ],
+  "description": "A full-stack online course marketplace built with Next.js App Router. Features user authentication via Clerk, Stripe-powered course payments, instructor-managed course content with sections/lectures, and dynamic course detail pages with enrollment tracking.",
+  "role": "Full Stack Engineer",
+  "tech": {
+    "frontend": [
+      "Next.js 16 (App Router)",
+      "React 19",
+      "Tailwind CSS",
+      "Lucide React"
+    ],
+    "backend": [
+      "Next.js API Routes",
+      "Prisma ORM",
+      "PostgreSQL"
+    ],
+    "services": [
+      "Clerk (Authentication & User Management)",
+      "Stripe (Payment Processing & Checkout)",
+      "Vercel (Deployment)",
+      "Svix (Webhook Verification)"
+    ]
+  },
+  "techStack": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Clerk",
+    "Stripe"
+  ],
+  "tags": [
+    "Next.js",
+    "React",
+    "Prisma",
+    "PostgreSQL",
+    "Clerk",
+    "Stripe",
+    "Tailwind CSS"
+  ],
+  "links": {
+    "github": "https://github.com/mabdullah356/course-era",
+    "live": ""
+  },
+  "ui_features": [
+    "Responsive course catalog grid with discount badges",
+    "Dynamic course detail page with collapsible section/lecture content",
+    "Sticky enrollment sidebar with price breakdown",
+    "Clerk-powered auth header with sign in/sign up modals",
+    "Loading spinners and empty state handling",
+    "Mobile-first responsive layout"
+  ],
+  "online_resources": {
+    "documentation": "https://github.com/mabdullah356/course-era/blob/main/README.md"
+  }
+},
+{
+    "id": "26",
+    "title": "Random API",
+    "category": "Developer Tools / API",
+    "type": "Web Application",
+    "icon": "Database",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&auto=format&fit=crop&q=60",
+    "images": [
+        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=60"
+    ],
+    "description": "A free REST API that serves random user profiles and product data from a seeded PostgreSQL database. Built for developers who need realistic fake data for UI mockups, testing, and demos — no API key, no rate limiting, no nonsense.",
+    "role": "Full Stack Engineer",
+    "tech": {
+        "frontend": [
+            "Next.js",
+            "React",
+            "Tailwind CSS",
+            "TypeScript"
+        ],
+        "backend": [
+            "Next.js API Routes",
+            "Prisma ORM",
+            "PostgreSQL"
+        ],
+        "services": [
+            "Vercel (deployment)",
+            "Prisma Accelerate (connection pooling)",
+            "Unsplash (product images)",
+            "randomuser.me (avatar URLs)"
+        ]
+    },
+    "techStack": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "Tailwind CSS"
+    ],
+    "tags": [
+        "Next.js",
+        "REST API",
+        "Prisma",
+        "PostgreSQL",
+        "TypeScript",
+        "Tailwind CSS"
+    ],
+    "links": {
+        "github": "https://github.com/mabdullah356/randomApi",
+        "live": ""
+    },
+    "ui_features": [
+        "Interactive landing page with live API previews",
+        "Collapsible JSON response viewer with copy-to-clipboard",
+        "Full interactive API documentation at /docs",
+        "Syntax-highlighted code examples (Fetch, Axios, React)",
+        "Query parameter support (gender, country, limit)",
+        "Animated status indicators and refresh buttons",
+        "Mobile-first responsive design"
+    ],
+    "online_resources": {
+        "documentation": "https://github.com/mabdullah356/randomApi/blob/main/README.md"
     }
+},
+{
+    "id": "27",
+    "title": "Nova.ai",
+    "category": "AI / SaaS Platform",
+    "type": "Full-Stack Web Application",
+    "icon": "Brain",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=60",
+    "images": [
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&auto=format&fit=crop&q=60",
+        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&fit=crop&q=60"
+    ],
+    "description": "A full-stack AI-powered multi-tool platform built with Next.js 16 and React 19. One platform providing five AI tools: chat, code generation, image creation, video generation, and presentation slide decks. Features JWT authentication, OTP email verification, PostgreSQL database, and a polished dashboard with custom magic UI animations.",
+    "role": "Full Stack Engineer",
+    "tech": {
+        "frontend": [
+            "Next.js 16",
+            "React 19",
+            "TypeScript",
+            "Tailwind CSS 4",
+            "Framer Motion",
+            "Lucide React"
+        ],
+        "backend": [
+            "Next.js API Routes",
+            "Prisma ORM",
+            "PostgreSQL",
+            "NextAuth.js",
+            "bcryptjs"
+        ],
+        "services": [
+            "OpenRouter API (Chat/Code/Slides)",
+            "Pollinations.ai (Image Generation)",
+            "Google Gemini Veo 3.1 (Video Generation)",
+            "HuggingFace Inference API (Video Fallback)",
+            "Resend (OTP Email)",
+            "PptxGenJS (Presentation Generation)",
+            "Vercel (Deployment)"
+        ]
+    },
+    "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "NextAuth.js"
+    ],
+    "tags": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Prisma",
+        "NextAuth",
+        "AI",
+        "OpenRouter",
+        "Pollinations",
+        "Gemini"
+    ],
+    "links": {
+        "github": "https://github.com/mabdullah356/nova.ai",
+        "live": ""
+    },
+    "ui_features": [
+        "Custom magic animation components (SnakeCursor, Orb, Particles, SparklesText, BlurText, MagneticButton, BorderBeam, GlareCard, Marquee, Aurora)",
+        "Responsive dashboard with collapsible sidebar and mobile drawer",
+        "Multi-turn AI chat with syntax-highlighted code blocks",
+        "AI code assistant with structured responses and copy-to-clipboard",
+        "AI image generation with 5 aspect ratio options",
+        "AI video generation with inline player and status polling",
+        "AI slides generation with tone and slide count configurators",
+        "Split-screen login and signup pages with OTP email verification",
+        "Session-aware header with auth state toggling",
+        "Purple/violet brand color system with blur backdrop navigation"
+    ],
+    "online_resources": {
+        "documentation": "https://github.com/mabdullah356/nova.ai/blob/main/README.md"
+    }
+}
 ]
