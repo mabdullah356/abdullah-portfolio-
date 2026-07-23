@@ -1377,7 +1377,7 @@
     ],
     "links": {
         "github": "https://github.com/mabdullah356/nova.ai",
-        "live": ""
+        "live": "https://nova-ai-lite.vercel.app/"
     },
     "ui_features": [
         "Custom magic animation components (SnakeCursor, Orb, Particles, SparklesText, BlurText, MagneticButton, BorderBeam, GlareCard, Marquee, Aurora)",
