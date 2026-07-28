@@ -7,13 +7,6 @@
         "icon": "Utensils",
         "thumbnail": "https://images.unsplash.com/photo-1598298125619-ac63f5c89d90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZvb2QlMjB3ZWJzaXRlJTIwdGh1bWJuYWlsfGVufDB8fDB8fHww",
         "images": [
-            "https://res.cloudinary.com/demo/image/upload/v1/pakbites/home.png",
-            "https://res.cloudinary.com/demo/image/upload/v2/pakbites/menu.png",
-            "https://res.cloudinary.com/demo/image/upload/v3/pakbites/cart.png",
-            "https://res.cloudinary.com/demo/image/upload/v4/pakbites/checkout.png",
-            "https://res.cloudinary.com/demo/image/upload/v5/pakbites/admin-dash.png",
-            "https://res.cloudinary.com/demo/image/upload/v6/pakbites/analytics.png",
-            "https://res.cloudinary.com/demo/image/upload/v7/pakbites/mobile-view.png"
         ],
         "description": "PakBites is a production-grade, full-stack food ordering platform designed for high-traffic restaurant operations. It solves the complexity of real-time menu management and secure transaction processing with a focus on premium aesthetics and performance.",
         "role": "Lead Full Stack Developer",
@@ -70,13 +63,7 @@
         "icon": "Users",
         "thumbnail": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZWJvb2t8ZW58MHx8MHx8fDA%3D",
         "images": [
-            "https://res.cloudinary.com/demo/image/upload/v1/fb/feed.png",
-            "https://res.cloudinary.com/demo/image/upload/v2/fb/reels.png",
-            "https://res.cloudinary.com/demo/image/upload/v3/fb/stories.png",
-            "https://res.cloudinary.com/demo/image/upload/v4/fb/marketplace.png",
-            "https://res.cloudinary.com/demo/image/upload/v5/fb/profile.png",
-            "https://res.cloudinary.com/demo/image/upload/v6/fb/comments.png",
-            "https://res.cloudinary.com/demo/image/upload/v7/fb/search.png"
+            
         ],
         "description": "A high-performance social networking platform optimized for speed and engagement. It features an advanced media streaming engine for Reels and a real-time notification system, mimicking the core experiences of modern social giants.",
         "role": "Full Stack Architect",
@@ -210,13 +197,6 @@
         "icon": "Car",
         "thumbnail": "https://images.unsplash.com/photo-1657947953120-6e5201f3b3ed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHViZXJ8ZW58MHx8MHx8fDA%3D",
         "images": [
-            "https://res.cloudinary.com/demo/image/upload/v1/uber/map.png",
-            "https://res.cloudinary.com/demo/image/upload/v2/uber/search.png",
-            "https://res.cloudinary.com/demo/image/upload/v3/uber/fare.png",
-            "https://res.cloudinary.com/demo/image/upload/v4/uber/ride-details.png",
-            "https://res.cloudinary.com/demo/image/upload/v5/uber/captain-view.png",
-            "https://res.cloudinary.com/demo/image/upload/v6/uber/profile.png",
-            "https://res.cloudinary.com/demo/image/upload/v7/uber/history.png"
         ],
         "description": "A sophisticated ride-hailing application that replicates the core functionality of Uber. It integrates real-time mapping, complex fare calculation algorithms, and a seamless matching system between captains and riders.",
         "role": "Full Stack Engineer",
@@ -267,7 +247,7 @@
     "category": "Communication / Social",
     "type": "Real-Time Messaging Platform",
     "icon": "MessageCircle",
-    "thumbnail": "https://res.cloudinary.com/dujmr03is/image/upload/v1785268662/Capture_ewux4e.png",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1721955487745-a2c3aea86d1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNoYXQlMjBhcHB8ZW58MHx8MHx8fDA%3D",
     "images": [
         "https://res.cloudinary.com/dujmr03is/image/upload/v1785268682/Capture2_ctcjif.png",
         "https://res.cloudinary.com/dujmr03is/image/upload/v1785268672/Capture1_qz2tsc.png",
@@ -335,13 +315,6 @@
         "icon": "BookOpen",
         "thumbnail": "https://images.unsplash.com/photo-1762329393667-03c6e5532174?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxlYXJuaW5nJTIwbWFuYWdlbWVudCUyMHN5c3RlbXxlbnwwfHwwfHx8MA%3D%3D",
         "images": [
-            "https://res.cloudinary.com/demo/image/upload/v1/ademy/home.png",
-            "https://res.cloudinary.com/demo/image/upload/v2/ademy/courses.png",
-            "https://res.cloudinary.com/demo/image/upload/v3/ademy/player.png",
-            "https://res.cloudinary.com/demo/image/upload/v4/ademy/checkout.png",
-            "https://res.cloudinary.com/demo/image/upload/v5/ademy/instructor-dash.png",
-            "https://res.cloudinary.com/demo/image/upload/v6/ademy/progress.png",
-            "https://res.cloudinary.com/demo/image/upload/v7/ademy/certificates.png"
         ],
         "description": "Ademy is a premium e-learning marketplace that bridge the gap between instructors and students. It features a secure payment gateway for course purchases, a dedicated video player for lessons, and automated progress tracking.",
         "role": "Lead Developer",
@@ -452,9 +425,6 @@
         "icon": "GraduationCap",
         "thumbnail": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&auto=format&fit=crop&q=60",
         "images": [
-            "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "An interactive flashcard and study application inspired by Quizlet. Built with React and Vite, Quizee helps students master any subject through beautifully designed flashcards, dynamic carousels, and an intuitive learning experience.",
         "role": "Full Stack Engineer",
@@ -509,7 +479,6 @@
         "icon": "Gamepad",
         "thumbnail": "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?w=600&auto=format&fit=crop&q=60",
         "images": [
-            "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "A modern, high-performance mini-games hub featuring a collection of classic arcade and logic games. Starting with a sleek Tic-Tac-Toe implementation, Pookie Games focuses on smooth state management, responsive bento-grid layouts, and a seamless user experience.",
         "role": "Full Stack Engineer",
@@ -564,8 +533,6 @@
         "icon": "ShoppingBag",
         "thumbnail": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop&q=60",
         "images": [
-            "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "A sophisticated platform merging a modern fashion e-commerce experience with curated travel and lifestyle guides. shopyee provides a seamless transition from exploring the latest trends in Men’s, Women’s, and Junior’s apparel to discovering hand-picked global travel destinations through an editorial-style interface.",
         "role": "Full Stack Engineer",
@@ -621,8 +588,6 @@
         "icon": "Package",
         "thumbnail": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&auto=format&fit=crop&q=60",
         "images": [
-            "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1553413766-47583c4531d0?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "A professional-grade Inventory Management System engineered for seamless stock tracking and business efficiency. InventoryMS features a high-performance dashboard, full product and category life-cycle management, and an advanced historical transaction engine, all delivered through a premium enterprise-level interface with zero backend dependency.",
         "role": "Full Stack Engineer",
@@ -734,8 +699,7 @@
         "icon": "MessageSquare",
         "thumbnail": "https://plus.unsplash.com/premium_photo-1677094310919-d0361465d3be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhdGJvdCUyMGFpfGVufDB8fDB8fHww",
         "images": [
-            "https://media.istockphoto.com/id/2226083558/photo/human-interaction-with-ai-technology-via-mobile.webp?a=1&b=1&s=612x612&w=0&k=20&c=iA5wlrKdGo4Crp7ScZAU0arN_3tCUjdLlQp297X0ODk=",
-            "https://media.istockphoto.com/id/2223894979/photo/ai-agents-and-assistants-man-using-a-laptop-with-futuristic-software-for-generating-images.webp?a=1&b=1&s=612x612&w=0&k=20&c=y2HdcLz-EHBl9Xv67fhqkHA6ITfq4DdSKRaEIGUDlgE="
+            
         ],
         "description": "EChat is a premium, high-performance AI-powered chat application designed to provide a seamless conversational experience. Built with React 19 and Vite, it integrates the Google Gemini Flash API for intelligent real-time responses. The platform features secure Clerk authentication, dynamic message streaming, and a mobile-first responsive design, all wrapped in a sleek, minimalist UI.",
         "role": "Lead Full Stack Developer",
@@ -789,8 +753,6 @@
         "icon": "Shield",
         "thumbnail": "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
         "images": [
-            "https://images.unsplash.com/photo-1762340275855-ae8f4c2c144e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzc3dvcmQlMjBtYW5hZ2VyfGVufDB8fDB8fHww",
-            "https://images.unsplash.com/photo-1762330472502-83efbe1d4478?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBhc3N3b3JkJTIwbWFuYWdlcnxlbnwwfHwwfHx8MA%3D%3D"
         ],
         "description": "A high-performance, military-grade password management solution designed for ultimate security and ease of use. Guardly features a zero-knowledge architecture, smart autofill capabilities, and a sleek modern interface to securely manage both digital credentials and financial wallets across all devices.",
         "role": "Frontend Engineer",
@@ -844,8 +806,6 @@
         "icon": "Book",
         "thumbnail": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&auto=format&fit=crop&q=60",
         "images": [
-            "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "A feature-rich digital bookstore and library management platform designed for a seamless reading discovery experience. BookSphere features dynamic book sliders, real-time catalog management via Supabase, advanced category filtering, and a responsive shopping interface, all brought to life with smooth Framer Motion animations.",
         "role": "Full Stack Engineer",
@@ -901,8 +861,6 @@
         "icon": "Current",
         "thumbnail": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvY2lhbCUyMG1lZGlhfGVufDB8fDB8fHww",
         "images": [
-            "https://images.unsplash.com/photo-1595039838779-f3780873afdd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5zdGFncmFtfGVufDB8fDB8fHww",
-            "https://plus.unsplash.com/premium_photo-1683842189051-19fc4188df7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGluc3RhZ3JhbXxlbnwwfHwwfHx8MA%3D%3D"
         ],
         "description": "A high-performance, pixel-perfect Current replication engineered for seamless social interaction. Built with Next.js 16 and Tailwind CSS 4, it features a responsive glassmorphic UI, secure authentication via NextAuth, and a scalable MongoDB backend. The application delivers a premium user experience with real-time post interactions, dynamic route grouping, and sophisticated server-side rendering for optimal performance.",
         "role": "Full Stack Engineer",
@@ -1020,8 +978,6 @@
         "icon": "Link",
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lTWecGZ2SJb1beaZJU-g9tFw-hHmTBZDjQ&s",
         "images": [
-            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=60",
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&auto=format&fit=crop&q=60"
         ],
         "description": "A high-performance URL shortener and comprehensive analytics platform engineered for speed and deep visitor insights. Built with Next.js 16 and Tailwind CSS 4, it features instant link shortening, secure multi-factor authentication, and an advanced tracking engine that captures detailed geolocation, device specifications, and browser data. The application provides a seamless, emerald-themed administration dashboard for managing shortened links with real-time data persistence through MongoDB.",
         "role": "Full Stack Engineer",
@@ -1083,9 +1039,6 @@
   "icon": "GraduationCap",
   "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=60",
   "images": [
-    "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&auto=format&fit=crop&q=60",
-    "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&auto=format&fit=crop&q=60",
-    "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=1200&auto=format&fit=crop&q=60"
   ],
   "description": "A full-stack online course marketplace built with Next.js App Router. Features user authentication via Clerk, Stripe-powered course payments, instructor-managed course content with sections/lectures, and dynamic course detail pages with enrollment tracking.",
   "role": "Full Stack Engineer",
@@ -1149,9 +1102,6 @@
     "icon": "Database",
     "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&auto=format&fit=crop&q=60",
     "images": [
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop&q=60"
     ],
     "description": "A free REST API that serves random user profiles and product data from a seeded PostgreSQL database. Built for developers who need realistic fake data for UI mockups, testing, and demos — no API key, no rate limiting, no nonsense.",
     "role": "Full Stack Engineer",
@@ -1213,9 +1163,6 @@
     "icon": "Brain",
     "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=60",
     "images": [
-        "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&auto=format&fit=crop&q=60",
-        "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&fit=crop&q=60"
     ],
     "description": "A full-stack AI-powered multi-tool platform built with Next.js 16 and React 19. One platform providing five AI tools: chat, code generation, image creation, video generation, and presentation slide decks. Features JWT authentication, OTP email verification, PostgreSQL database, and a polished dashboard with custom magic UI animations.",
     "role": "Full Stack Engineer",
