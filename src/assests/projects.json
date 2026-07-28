@@ -370,6 +370,61 @@
     "documentation": ""
   }
 },
+{
+    "id": "30",
+    "title": "Ludo King Arena",
+    "category": "Gaming / Real-Time Multiplayer",
+    "type": "Board Game Platform",
+    "icon": "Swords",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1718879381602-9a02c5ab08d9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bHVkbyUyMGdhbWV8ZW58MHx8MHx8fDA%3D",
+    "images": [
+        "https://res.cloudinary.com/dujmr03is/image/upload/v1785272387/ludo-king_obrs2y.png"
+    ],
+    "description": "Ludo King Arena is a real-time two-player Ludo board game built with React and Socket.IO. It features a streamlined 52-step track where Red and Blue players race a single token to the center, with animated dice rolling via GSAP, smooth step-by-step token movement, capture mechanics, safe spots, and extra-turn rules for rolling a 6 or capturing the opponent.",
+    "role": "Full Stack Developer",
+    "tech": {
+        "frontend": [
+            "React",
+            "Tailwind CSS",
+            "GSAP",
+            "Socket.IO Client",
+            "Lucide React"
+        ],
+        "backend": [
+            "Node.js",
+            "Socket.IO",
+            "Vite"
+        ],
+        "services": [
+            "WebSocket (Real-time)",
+            "CSS Grid Board Rendering"
+        ]
+    },
+    "tags": [
+        "React",
+        "Socket.IO",
+        "GSAP",
+        "Tailwind",
+        "Node.js"
+    ],
+    "techStack": [
+        "React"
+    ],
+    "links": {
+        "github": "https://github.com/mabdullah356/ludo-game.git",
+        "live": ""
+    },
+    "ui_features": [
+        "Dark gradient UI with glowing player panels for active turn",
+        "Animated dice with 720° rotation and rapid face cycling",
+        "Smooth step-by-step token movement using GSAP timelines",
+        "Full-screen winner overlay with trophy, backdrop blur, and play-again button",
+        "Spectator mode, connection status badges, and turn-based glow indicators"
+    ],
+    "online_resources": {
+        "documentation": ""
+    }
+},
     {
         "id": "06",
         "title": "Ademy - Knowledge E-Learning",
