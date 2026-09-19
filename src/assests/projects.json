@@ -426,64 +426,6 @@
         }
     },
     {
-        "id": "07",
-        "title": "MiniURL - Link Analytics",
-        "category": "Utility / Microservice",
-        "type": "Web Utility Tool",
-        "icon": "Link",
-        "thumbnail": "https://media.istockphoto.com/id/598821796/photo/url-button-text.webp?a=1&b=1&s=612x612&w=0&k=20&c=QxpVe5cTwimheFp1jlEUa89HlUGc_Oasuas4NN4_le4=",
-        "images": [
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783001/Capture_qftox8.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783001/Capture6_pfbyqv.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783002/Capture7_ikxnts.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783000/Capture1_fz7slh.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783001/Capture2_g4bkyi.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783000/Capture3_fd3qlk.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783001/Capture5_gmhfix.png",
-            "https://res.cloudinary.com/dujmr03is/image/upload/v1770783001/Capture4_y4e7vd.png"
-        ],
-        "description": "A high-efficiency microservice designed for link management. It provides instant URL shortening, custom brand-able aliases, and real-time click tracking with QR code integration.",
-        "role": "Backend-focused Developer",
-        "tech": {
-            "frontend": [
-                "React",
-                "Tailwind CSS",
-                "Axios"
-            ],
-            "backend": [
-                "Node.js",
-                "Express.js",
-                "MongoDB"
-            ],
-            "services": [
-                "ShortID Generation",
-                "QR Code Engine"
-            ]
-        },
-        "tags": [
-            "Node.js",
-            "MongoDB",
-            "Express",
-            "JavaScript"
-        ],
-        "techStack": [
-            "MERN Stack"
-        ],
-        "links": {
-            "github": "https://github.com/mabdullah356/URL-Shortener",
-            "live": ""
-        },
-        "ui_features": [
-            "Ultra-minimalist input-first design",
-            "Instant copy-to-clipboard feedback",
-            "Modern simplified chart visualizations",
-            "Live preview for generated QR codes"
-        ],
-        "online_resources": {
-            "documentation": "https://github.com/yourusername/miniurl/blob/main/README.md"
-        }
-    },
-    {
         "id": "09",
         "title": "Quizee",
         "category": "EdTech / Learning",
