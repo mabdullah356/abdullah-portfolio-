@@ -5,7 +5,7 @@ import {
   FaGraduationCap, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaFigma 
 } from "react-icons/fa";
 import { FiServer } from "react-icons/fi";
-
+import { RiNextjsFill } from "react-icons/ri";
 
 const SkillBadge = ({ icon: Icon, skill, delay = 0 }) => (
   <motion.div
@@ -60,6 +60,7 @@ const SkillsAndEducation = () => {
                 <SkillBadge icon={FaCss3Alt} skill="CSS3" delay={0.1} />
                 <SkillBadge icon={FaJs} skill="JavaScript (ES6+)" delay={0.2} />
                 <SkillBadge icon={FaReact} skill="React.js" delay={0.3} />
+                <SkillBadge icon={RiNextjsFill} skill="Next.js" delay={0.4} />
               </div>
             </div>
 
@@ -72,6 +73,8 @@ const SkillsAndEducation = () => {
                 <SkillBadge icon={FaNodeJs} skill="Node.js" />
                 <SkillBadge icon={FiServer} skill="Express.js" delay={0.1} />
                 <SkillBadge icon={FaDatabase} skill="MongoDB" delay={0.2} />
+                <SkillBadge icon={FaDatabase} skill="MySQL" delay={0.3} />
+                <SkillBadge icon={FaDatabase} skill="PostgreSQL" delay={0.4} />
               </div>
             </div>
 
@@ -95,6 +98,7 @@ const SkillsAndEducation = () => {
                 <SkillBadge icon={FaPaintBrush} skill="UI/UX Design" />
                 <SkillBadge icon={FaPaintBrush} skill="Brand Identity" delay={0.1} />
                 <SkillBadge icon={FaPaintBrush} skill="Creative Typography" delay={0.2} />
+                <SkillBadge icon={FaFigma} skill="Responsive Design" delay={0.3} />
               </div>
             </div>
           </div>

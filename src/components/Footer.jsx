@@ -152,7 +152,7 @@ function Footer() {
               <div>
                 <h4 className="text-sm font-semibold text-gray-200 mb-3">Technologies</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'Node.js', 'MongoDB', 'Express'].map((tech, index) => (
+                  {['Next.js', 'React', 'Node.js', 'MongoDB', 'Express'].map((tech, index) => (
                     <span
                       key={index}
                       className="bg-gray-800/50 text-gray-300 px-3 py-1 rounded-full text-xs border border-gray-700 hover:border-red-500 transition-colors cursor-pointer"
@@ -179,17 +179,7 @@ function Footer() {
               </p>
             </div>
 
-            <div className="flex flex-wrap justify-center gap-6 text-sm">
-              {legalLinks.map((link, index) => (
-                <button
-                  key={index}
-                  className="text-gray-400 hover:text-red-400 transition-colors duration-300"
-                >
-                  {link}
-                </button>
-              ))}
-            </div>
-
+          
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="bg-red-600 hover:bg-red-700 text-white p-3 rounded-full transition-all duration-300 transform hover:scale-110"

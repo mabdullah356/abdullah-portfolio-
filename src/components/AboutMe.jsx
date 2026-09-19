@@ -17,8 +17,10 @@ import {
   FaCode,
   FaArrowRight
 } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const techStack = [
+  { name : "Next.js", icon: <RiNextjsFill /> },
   { name: "React", icon: <FaReact /> },
   { name: "JavaScript", icon: <FaJs /> },
   { name: "Node.js", icon: <FaNodeJs /> },

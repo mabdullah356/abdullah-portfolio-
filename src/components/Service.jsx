@@ -12,8 +12,9 @@ import {
   SiMysql
 } from "react-icons/si";
 import { FaCogs } from "react-icons/fa";
-
+import { RiNextjsFill } from "react-icons/ri";
 const iconMap = {
+  Nextjs: <RiNextjsFill className="text-cyan-400" />,
   javascript: <SiJavascript className="text-yellow-400" />,
   react: <SiReact className="text-cyan-400" />,
   nodejs: <SiNodedotjs className="text-green-500" />,
@@ -25,10 +26,20 @@ const iconMap = {
 };
 const skills = [
   {
+    icon: iconMap.Nextjs,
+    title: "Next.js",
+    description: "Building server-side rendered React applications with optimized performance and SEO.",
+    level: 96,
+    category: "Frontend",
+    color: "from-cyan-400 to-cyan-600",
+    bgColor: "bg-cyan-50",
+    borderColor: "border-cyan-200"
+  },
+  {
     icon: iconMap.javascript,
     title: "JavaScript",
     description: "Building dynamic interfaces with modern ES6+ features and interactive user experiences.",
-    level: 90,
+    level: 94,
     category: "Frontend",
     color: "from-yellow-400 to-yellow-600",
     bgColor: "bg-yellow-50",
@@ -38,7 +49,7 @@ const skills = [
     icon: iconMap.react,
     title: "React.js",
     description: "Creating reactive UIs with hooks, context, and modern React patterns for scalable applications.",
-    level: 85,
+    level: 95,
     category: "Frontend",
     color: "from-blue-400 to-blue-600",
     bgColor: "bg-blue-50",
@@ -48,7 +59,7 @@ const skills = [
     icon: iconMap.nodejs,
     title: "Node.js",
     description: "Backend development using Express.js, building RESTful APIs and server-side applications.",
-    level: 80,
+    level: 97,
     category: "Backend",
     color: "from-green-500 to-green-700",
     bgColor: "bg-green-50",
@@ -58,7 +69,7 @@ const skills = [
     icon: iconMap.git,
     title: "Git & GitHub",
     description: "Version control mastery with Git, collaborative development, and CI/CD workflows.",
-    level: 85,
+    level: 95,
     category: "Tools",
     color: "from-orange-500 to-red-600",
     bgColor: "bg-orange-50",
@@ -68,7 +79,7 @@ const skills = [
     icon: iconMap.html,
     title: "HTML5",
     description: "Semantic markup and accessibility standards for creating structured, SEO-friendly websites.",
-    level: 95,
+    level: 99,
     category: "Frontend",
     color: "from-red-500 to-red-700",
     bgColor: "bg-red-50",
@@ -78,7 +89,7 @@ const skills = [
     icon: iconMap.css,
     title: "CSS3 & Frameworks",
     description: "Advanced styling with CSS3, Sass, Tailwind CSS, and responsive design principles.",
-    level: 90,
+    level: 97,
     category: "Frontend",
     color: "from-blue-500 to-indigo-600",
     bgColor: "bg-blue-50",
@@ -88,7 +99,7 @@ const skills = [
     icon: iconMap.database,
     title: "Database Management",
     description: "Working with SQL (MySQL) and NoSQL (MongoDB) database systems.",
-    level: 80,
+    level: 97,
     category: "Backend",
     color: "from-purple-600 to-purple-800",
     bgColor: "bg-purple-50",
