@@ -1,0 +1,310 @@
+[
+    {
+        "id": "01",
+        "title": "PakBites - Premium Food Hub",
+        "category": "E-Commerce / Food Tech",
+        "type": "MERN Stack Application",
+        "icon": "Utensils",
+        "thumbnail": "https://images.unsplash.com/photo-1598298125619-ac63f5c89d90?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWhFyY2h8MTR8fGZvb2QlMjB3ZWJzaXRlJTIwdGh1bWJuYWlsfGVufDB8fDB8fHww",
+        "images": [
+        ],
+        "description": "PakBites is a production-grade, full-stack food ordering platform designed for high-traffic restaurant operations. It solves the complexity of real-time menu management and secure transaction processing with a focus on premium aesthetics and performance.",
+        "role": "Lead Full Stack Developer",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Vite",
+                "Tailwind CSS 4",
+                "Framer Motion",
+                "React Router 7"
+            ],
+            "backend": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose"
+            ],
+            "services": [
+                "Cloudinary (Media)",
+                "Nodemailer (OTP Service)",
+                "JWT (Auth)",
+                "Bcrypt (Security)"
+            ]
+        },
+        "tags": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Tailwind"
+        ],
+        "techStack": [
+            "MERN Stack"
+        ],
+        "links": {
+            "github": "https://github.com/mabdullah356/pakBites",
+            "live": ""
+        },
+        "ui_features": [
+            "Vibrant dark-mode-first aesthetic with glassmorphism effects",
+            "Liquid transitions using Framer Motion",
+            "Fully responsive architecture for mobile and desktop",
+            "Interactive data visualizations for admin analytics"
+        ],
+        "online_resources": {
+            "documentation": "https://github.com/yourusername/pakbites/blob/main/README.md",
+            "api_docs": "https://documenter.getpostman.com/view/pakbites"
+        }
+    },
+    {
+        "id": "02",
+        "title": "Facebook Lite - Social Hub",
+        "category": "Social Media / Networking",
+        "type": "Real-time Web App",
+        "icon": "Users",
+        "thumbnail": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjZWJvb2t8ZW58MHx8MHx8fDA%3D",
+        "images": [
+            
+        ],
+        "description": "A high-performance social networking platform optimized for speed and engagement. It features an advanced media streaming engine for Reels and a real-time notification system, mimicking the core experiences of modern social giants.",
+        "role": "Full Stack Architect",
+        "tech": {
+            "frontend": [
+                "React 19",
+                "Tailwind CSS 4",
+                "Framer Motion",
+                "Axios"
+            ],
+            "backend": [
+                "Node.js",
+                "Express.js (v5)",
+                "MongoDB",
+                "Multer"
+            ],
+            "services": [
+                "Cloudinary (Video Streaming)",
+                "JWT Authentication",
+                "Nodemailer (OTP Verified)"
+            ]
+        },
+        "tags": [
+            "React",
+            "Framer Motion",
+            "Cloudinary",
+            "Node.js"
+        ],
+        "techStack": [
+            "MERN Stack"
+        ],
+        "links": {
+            "github": "https://github.com/mabdullah356/facebook",
+            "live": ""
+        },
+        "ui_features": [
+            "Native-feeling mobile transitions for Reels and Stories",
+            "Auditory feedback on social interactions (likes/comments)",
+            "Intersection-aware auto-play engine for video content",
+            "Dynamic aspect-ratio enforcement for visual stability"
+        ],
+        "online_resources": {
+            "documentation": "https://github.com/yourusername/facebook-lite/blob/main/README.md"
+        }
+    },
+    {
+        "id": "20",
+        "title": "The Current",
+        "category": "Social Media / Connect",
+        "type": "Web Application",
+        "icon": "Current",
+        "thumbnail": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNvY2lhbCUyMG1lZGlhfGVufDB8fDB8fHww",
+        "images": [
+        ],
+        "description": "A high-performance, pixel-perfect Current replication engineered for seamless social interaction. Built with Next.js 16 and Tailwind CSS 4, it features a responsive glassmorphic UI, secure authentication via NextAuth, and a scalable MongoDB backend. The application delivers a premium user experience with real-time post interactions, dynamic route grouping, and sophisticated server-side rendering for optimal performance.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS v4",
+                "Axios"
+            ],
+            "backend": [
+                "Next.js Server Actions",
+                "MongoDB",
+                "Mongoose",
+                "NextAuth.js"
+            ],
+            "services": [
+                "Cloudinary Media Engine",
+                "Bcrypt.js (Security)",
+                "React Icons"
+            ]
+        },
+        "techStack": [
+            "Next.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "tags": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB",
+            "NextAuth",
+            "Social Media Clone",
+            "Full Stack",
+            "Responsive Design"
+        ],
+        "links": {
+            "github": "https://github.com/mabdullah356/the-current",
+            "live": "https://the-current-lite.vercel.app/login"
+        },
+        "ui_features": [
+            "Pixel-Perfect Current UI with Modern Glassmorphism",
+            "Secure Authentication Flow with Route Protection",
+            "Dynamic Feed Architecture with Optimized Layout Shifting",
+            "Seamless Post Interactions (Like, Comment, Save functionality)",
+            "Advanced User Profiles with Follower/Following Logic",
+            "High-Performance Server Actions for Real-time Data Handling",
+            "Responsive Navigation System (Sidebar & Bottom Bar)"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Trimly - Smart URL Shortener",
+        "category": "Productivity / Web Tool",
+        "type": "Next.js Web Application",
+        "icon": "Link",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lTWecGZ2SJb1beaZJU-g9tFw-hHmTBZDjQ&s",
+        "images": [
+        ],
+        "description": "A high-performance URL shortener and comprehensive analytics platform engineered for speed and deep visitor insights. Built with Next.js 16 and Tailwind CSS 4, it features instant link shortening, secure multi-factor authentication, and an advanced tracking engine that captures detailed geolocation, device specifications, and browser data. The application provides a seamless, emerald-themed administration dashboard for managing shortened links with real-time data persistence through MongoDB.",
+        "role": "Full Stack Engineer",
+        "tech": {
+            "frontend": [
+                "Next.js 16 (App Router)",
+                "React 19",
+                "Tailwind CSS v4",
+                "Axios",
+                "Framer Motion"
+            ],
+            "backend": [
+                "Next.js Route Handlers",
+                "MongoDB",
+                "Mongoose",
+                "NextAuth.js",
+                "nanoid"
+            ],
+            "services": [
+                "Nodemailer (Verification)",
+                "ua-parser-js (Analytics)",
+                "ipinfo.io API",
+                "Vercel Deployment"
+            ]
+        },
+        "techStack": [
+            "Next.js",
+            "MongoDB",
+            "Tailwind CSS"
+        ],
+        "tags": [
+            "Next.js",
+            "Tailwind CSS v4",
+            "MongoDB",
+            "URL Shortener",
+            "Analytics",
+            "Full Stack",
+            "NextAuth"
+        ],
+        "links": {
+            "github": "https://github.com/mabdullah356/trimly",
+            "live": "https://trimly-pro.vercel.app/"
+        },
+        "ui_features": [
+            "One-Click High-Performance URL Shortening System",
+            "Advanced Visitor Analytics Dashboard (Geo, Device, Browser Tracking)",
+            "Secure Multi-Factor Authentication with Email Verification",
+            "Real-Time Link Management & Interaction History Persistence",
+            "High-Fidelity Responsive Emerald Design System",
+            "Intelligent Bot Detection & Security Filtering Logic",
+            "Sophisticated Geolocation Integration via ipinfo.io"
+        ]
+    },
+{
+    "id": "37",
+    "title": "Nova.ai",
+    "category": "AI / SaaS Platform",
+    "type": "Full-Stack Web Application",
+    "icon": "Brain",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&auto=format&fit=crop&q=60",
+    "images": [
+    ],
+    "description": "A full-stack AI-powered multi-tool platform built with Next.js 16 and React 19. One platform providing five AI tools: chat, code generation, image creation, video generation, and presentation slide decks. Features JWT authentication, OTP email verification, PostgreSQL database, and a polished dashboard with custom magic UI animations.",
+    "role": "Full Stack Engineer",
+    "tech": {
+        "frontend": [
+            "Next.js 16",
+            "React 19",
+            "TypeScript",
+            "Tailwind CSS 4",
+            "Framer Motion",
+            "Lucide React"
+        ],
+        "backend": [
+            "Next.js API Routes",
+            "Prisma ORM",
+            "PostgreSQL",
+            "NextAuth.js",
+            "bcryptjs"
+        ],
+        "services": [
+            "OpenRouter API (Chat/Code/Slides)",
+            "Pollinations.ai (Image Generation)",
+            "Google Gemini Veo 3.1 (Video Generation)",
+            "HuggingFace Inference API (Video Fallback)",
+            "Resend (OTP Email)",
+            "PptxGenJS (Presentation Generation)",
+            "Vercel (Deployment)"
+        ]
+    },
+    "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Prisma",
+        "PostgreSQL",
+        "NextAuth.js"
+    ],
+    "tags": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Prisma",
+        "NextAuth",
+        "AI",
+        "OpenRouter",
+        "Pollinations",
+        "Gemini"
+    ],
+    "links": {
+        "github": "https://github.com/mabdullah356/nova.ai",
+        "live": "https://nova-ai-lite.vercel.app/"
+    },
+    "ui_features": [
+        "Custom magic animation components (SnakeCursor, Orb, Particles, SparklesText, BlurText, MagneticButton, BorderBeam, GlareCard, Marquee, Aurora)",
+        "Responsive dashboard with collapsible sidebar and mobile drawer",
+        "Multi-turn AI chat with syntax-highlighted code blocks",
+        "AI code assistant with structured responses and copy-to-clipboard",
+        "AI image generation with 5 aspect ratio options",
+        "AI video generation with inline player and status polling",
+        "AI slides generation with tone and slide count configurators",
+        "Split-screen login and signup pages with OTP email verification",
+        "Session-aware header with auth state toggling",
+        "Purple/violet brand color system with blur backdrop navigation"
+    ],
+    "online_resources": {
+        "documentation": "https://github.com/mabdullah356/nova.ai/blob/main/README.md"
+    }
+}
+]

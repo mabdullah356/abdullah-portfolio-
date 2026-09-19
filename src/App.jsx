@@ -13,15 +13,17 @@ export default function App() {
   return (
     <div>
       <Header />
-      <Routes>
-        <Route path="/" element={<AboutMe />} />
-        <Route path="/contact" element={<ContactMe />} />
-        <Route path="/recent-work" element={<RecentWorks />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/services" element={<Service />} />
-        <Route path ="/project/:id" element={<Project/>}/>
-      </Routes>
-      <Footer />
+      <div data-scroll-container>
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/recent-work" element={<RecentWorks />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/services" element={<Service />} />
+          <Route path ="/project/:id" element={<Project/>}/>
+        </Routes>
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Syne", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -10,8 +16,7 @@
     @apply antialiased overflow-x-hidden;
     margin: 0;
     padding: 0;
-    color: #2d3a33;
-    /* Darker sage-tinted charcoal */
+    color: #111111;
   }
 }
 
@@ -26,18 +31,85 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f3;
-  /* Very light sage tint */
+  background: #f4f4f2;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a4c3b2;
-  /* Sage Green */
+  background: #c9c9c4;
   border-radius: 10px;
-  border: 2px solid #f1f5f3;
+  border: 2px solid #f4f4f2;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8ba99b;
-  /* Slightly darker sage */
+  background: #a8a8a2;
+}
+
+.hero-char,
+.bio-line-inner,
+.sr-char,
+.orbit-item {
+  will-change: transform;
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Liquid flow sheen for the hero name */
+@keyframes text-flow {
+  0%,
+  62% {
+    background-position: 135% 0;
+  }
+  100% {
+    background-position: -45% 0;
+  }
+}
+
+.hero-name .sr-char {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    100deg,
+    #111111 0%,
+    #111111 42%,
+    #dc2626 50%,
+    #111111 58%,
+    #111111 100%
+  );
+  background-size: 260% 100%;
+  background-repeat: no-repeat;
+  background-position: 135% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: text-flow 7s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-name .sr-char {
+    background: none;
+    color: #111111;
+    -webkit-text-fill-color: #111111;
+    animation: none;
+  }
+}
+
+body.cursor-none {
+  cursor: none;
+}
+
+body.cursor-none a,
+body.cursor-none button,
+body.cursor-none [role="button"],
+body.cursor-none [data-cursor="hover"],
+body.cursor-none label {
+  cursor: none;
+}
+
+body.cursor-none input,
+body.cursor-none textarea,
+body.cursor-none select {
+  cursor: text;
 }

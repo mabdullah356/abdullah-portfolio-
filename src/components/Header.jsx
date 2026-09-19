@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import PorfilePic from "../assests/Abdullah_logo.png";
 
-const MotionLink = motion(Link);
+const MotionLink = motion.create(Link);
 
 function Header() {
   const { pathname } = useLocation();
