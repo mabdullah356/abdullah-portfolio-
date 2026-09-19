@@ -1133,37 +1133,8 @@ function ExperienceTimeline({ onOpen }) {
                     <button type="button" onClick={() => openProject(entry.id)} className="inline-flex items-center gap-2 text-sm font-bold text-red-600 transition-colors duration-300 hover:text-[#111111]">
                       Case Study <FaArrowRight /></button></div></article></li>
             ))}</ol></div></div></section>);}
-/* ------------------------------- projects grid ------------------------------- */
-function ProjectsShowcase({ projects, onOpen }) {
-  const reduce = useReducedMotion();
-  const { loco } = useContext(LocoContext);
-  const [active, setActive] = useState("All");
-  const categories = useMemo(() => ["All", ...new Set(projects.map((p) => p.category).filter(Boolean))], [projects]);
-  const visible = useMemo(() => (active === "All" ? projects : projects.filter((p) => p.category === active)), [active, projects]);
-  useEffect(() => {
-    const t = window.setTimeout(() => { if (loco) loco.update(); ScrollTrigger.refresh(); }, 300);
-    return () => window.clearTimeout(t);
-  }, [active, loco]);
-  return (
-    <section className="relative px-6 py-28 md:px-12 md:py-40">
-      <div className="mx-auto w-full max-w-[1400px]">
-        <header className="mb-16 flex flex-col gap-10 md:mb-20 md:flex-row md:items-end md:justify-between">
-          <div className="max-w-3xl">
-            <SectionLabel>Selected Work</SectionLabel>
-            <SplitTextReveal scrub text="Projects" className="text-4xl font-display font-semibold leading-[1.05] tracking-tight text-[#111111] md:text-6xl" /></div>
-          <Motion.div variants={variants.fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="flex flex-wrap gap-2">
-            {categories.map((category) => {
-              const isActive = category === active;
-              return (
-                <button key={category} type="button" onClick={() => setActive(category)} className="relative rounded-full px-5 py-2.5 text-sm font-bold">
-                  {isActive && <Motion.span layoutId="filter-pill" className="absolute inset-0 rounded-full bg-[#111111]" transition={{ type: "spring", stiffness: 380, damping: 30 }} />}
-                  <span className={`relative z-10 ${isActive ? "text-white" : "text-[#111111]/60 hover:text-[#111111]"}`}>{category}</span></button>);
-            })}</Motion.div></header>
-        <AnimatePresence mode="wait">
-          <Motion.div key={`${active}-${visible.length}`} className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3" initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0, transition: { duration: 0.45, ease: "easeOut" } }} exit={{ opacity: 0, y: -18, transition: { duration: 0.3 } }}>
-            {visible.map((project) => <ProjectCard key={project.id} project={project} onOpen={onOpen} />)}</Motion.div></AnimatePresence>
-        {reduce && <p className="mt-10 text-center text-sm font-semibold text-[#111111]/50">Reduced-motion mode: scroll animations simplified.</p>}</div></section>);}
-function tagDocsEmpty(project) {
+
+            function tagDocsEmpty(project) {
   return project.tags && project.techStack && project.tags.length === 0 && project.techStack.length === 0;}
 function ProjectCard({ project, onOpen }) {
   const open = useCallback(() => onOpen(project), [onOpen, project]);
@@ -1396,7 +1367,6 @@ export default function AboutMe() {
         <TextFlowMotionLayer text="Full Stack Creative Developer" />
         <ExperienceTimeline onOpen={setOpenProject} />
         <ElasticStringDivider />
-        <ProjectsShowcase projects={projects} onOpen={setOpenProject} />
         <ProjectCardStack projects={projects} onOpen={setOpenProject} />
         <TestimonialsCarousel />
         <TestimonialsOrCTA />
