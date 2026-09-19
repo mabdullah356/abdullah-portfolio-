@@ -60,7 +60,7 @@
 /* Liquid flow sheen for the hero name */
 @keyframes text-flow {
   0%,
-  62% {
+  30% {
     background-position: 135% 0;
   }
   100% {
@@ -72,11 +72,11 @@
   color: transparent;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
-    100deg,
+    105deg,
     #111111 0%,
-    #111111 42%,
+    #111111 41%,
     #dc2626 50%,
-    #111111 58%,
+    #111111 59%,
     #111111 100%
   );
   background-size: 260% 100%;
@@ -84,7 +84,7 @@
   background-position: 135% 0;
   -webkit-background-clip: text;
   background-clip: text;
-  animation: text-flow 7s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  animation: text-flow 6.5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
