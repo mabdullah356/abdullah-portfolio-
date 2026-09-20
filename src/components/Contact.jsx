@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import axios from "axios";
+import { toast } from "react-hot-toast";
 import profileImg from "../assests/Abdullah.jpg";
 import {
   FaPhone,
@@ -67,8 +69,18 @@ function ContactMe() {
     setSubmitStatus("");
 
     try {
-      await new Promise((r) => setTimeout(r, 1500));
+      const payload = new FormData(e.target);
+      payload.append("access_key", "63021a49-141c-4db8-bf1e-48b6774ea6fa");
+
+      const response = await axios.post(
+        "https://api.web3forms.com/submit",
+        payload,
+      );
+
+      if (!response.data.success) throw new Error(response.data.message);
+
       setSubmitStatus("success");
+      toast.success("Message sent successfully!");
       setFormData({
         name: "",
         email: "",
@@ -78,6 +90,7 @@ function ContactMe() {
       });
     } catch {
       setSubmitStatus("error");
+      toast.error("Could not send your message. Please try again.");
     } finally {
       setIsSubmitting(false);
       setTimeout(() => setSubmitStatus(""), 3000);
@@ -105,7 +118,8 @@ function ContactMe() {
             Let's Work <span className="text-red-600">Together</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Have a project or idea? Let's create something impactful and user-focused.
+            Have a project or idea? Let's create something impactful and
+            user-focused.
           </p>
         </div>
 
